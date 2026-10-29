@@ -1,0 +1,65 @@
+{
+  "beginner": {
+    "problem_id": "tiny-observatory-in-dro",
+    "orbit": "DRO",
+    "n_sat": 5,
+    "grid_size": 11,
+    "n_meas": 3,
+    "ic": [
+      0.8965084609449406,
+      0.0,
+      0.0,
+      1.3951082e-14,
+      0.47481794884853445,
+      0.0
+    ],
+    "period": 2.6905181697222775,
+    "mu": 0.01215058560962404,
+    "scaling_factor": 0.0001,
+    "inflation_factor": 1.23,
+    "source_file": "https://github.com/esa/SpOC3/blob/main/Challenge%202%20Interferometric%20Mission/problems/golomb_simple.py",
+    "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a"
+  },
+  "intermediate": {
+    "problem_id": "large-observatory-in-dro",
+    "orbit": "DRO",
+    "n_sat": 40,
+    "grid_size": 21,
+    "n_meas": 3,
+    "ic": [
+      0.8965084609449406,
+      0.0,
+      0.0,
+      1.3951082e-14,
+      0.47481794884853445,
+      0.0
+    ],
+    "period": 2.6905181697222775,
+    "mu": 0.01215058560962404,
+    "scaling_factor": 0.0001,
+    "inflation_factor": 1.23,
+    "source_file": "https://github.com/esa/SpOC3/blob/main/Challenge%202%20Interferometric%20Mission/problems/golomb_medium.py",
+    "source_sha256": "0c40b8c3d5af0b7df001c102862715f661785a3bbdece2abaf8c8849190bc133"
+  },
+  "hard": {
+    "problem_id": "large-observatory-in-halo",
+    "orbit": "HALO",
+    "n_sat": 40,
+    "grid_size": 21,
+    "n_meas": 3,
+    "ic": [
+      1.0829551779304256,
+      -6.923280193602759e-27,
+      -0.20231744561698364,
+      9.78887918274808e-15,
+      -0.20102644884016105,
+      2.4744866465838825e-14
+    ],
+    "period": 2.383491010514447,
+    "mu": 0.01215058560962404,
+    "scaling_factor": 0.0001,
+    "inflation_factor": 1.23,
+    "source_file": "https://github.com/esa/SpOC3/blob/main/Challenge%202%20Interferometric%20Mission/problems/golomb_hard.py",
+    "source_sha256": "07e8028080676757de3dd18c837efe07f6e0ae4c140808eb78ab147bfddfe8ec"
+  }
+}

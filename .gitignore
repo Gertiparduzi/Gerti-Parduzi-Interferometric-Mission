@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyCharm
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+
+# Generated experiment outputs
+results/
+plots/
+saved_fitness_plots/
+saved_reconstructions/
+
+# Generated submission
+submission.json
+
+# Archives
+*.zip
+
+# Operating system
+.DS_Store
+Thumbs.db

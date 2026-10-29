@@ -1,0 +1,14 @@
+name: interferometric-mission
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - matplotlib
+  - pillow
+  - heyoka.py
+  - pygmo
