@@ -6,9 +6,10 @@ channels:
 
 dependencies:
   - python=3.12
-  - numpy
-  - scipy
-  - matplotlib
-  - pillow
-  - heyoka.py
-  - pygmo
+  - numpy=1.26.4
+  - scipy=1.14.1
+  - matplotlib=3.9.2
+  - pillow=10.4.0
+  # ESA uses the pre-4.0 propagate_grid() tuple layout.
+  - heyoka.py=3.2.0
+  - pygmo=2.19.6

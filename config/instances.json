@@ -17,8 +17,9 @@
     "mu": 0.01215058560962404,
     "scaling_factor": 0.0001,
     "inflation_factor": 1.23,
-    "source_file": "https://github.com/esa/SpOC3/blob/main/Challenge%202%20Interferometric%20Mission/problems/golomb_simple.py",
-    "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a"
+    "source_file": "https://github.com/esa/SpOC3/blob/b45d23bb1950212510fde3d7b6159e9f9f6fbad4/Challenge%202%20Interferometric%20Mission/problems/golomb_simple.py",
+    "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+    "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4"
   },
   "intermediate": {
     "problem_id": "large-observatory-in-dro",
@@ -38,8 +39,9 @@
     "mu": 0.01215058560962404,
     "scaling_factor": 0.0001,
     "inflation_factor": 1.23,
-    "source_file": "https://github.com/esa/SpOC3/blob/main/Challenge%202%20Interferometric%20Mission/problems/golomb_medium.py",
-    "source_sha256": "0c40b8c3d5af0b7df001c102862715f661785a3bbdece2abaf8c8849190bc133"
+    "source_file": "https://github.com/esa/SpOC3/blob/b45d23bb1950212510fde3d7b6159e9f9f6fbad4/Challenge%202%20Interferometric%20Mission/problems/golomb_medium.py",
+    "source_sha256": "0c40b8c3d5af0b7df001c102862715f661785a3bbdece2abaf8c8849190bc133",
+    "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4"
   },
   "hard": {
     "problem_id": "large-observatory-in-halo",
@@ -59,7 +61,8 @@
     "mu": 0.01215058560962404,
     "scaling_factor": 0.0001,
     "inflation_factor": 1.23,
-    "source_file": "https://github.com/esa/SpOC3/blob/main/Challenge%202%20Interferometric%20Mission/problems/golomb_hard.py",
-    "source_sha256": "07e8028080676757de3dd18c837efe07f6e0ae4c140808eb78ab147bfddfe8ec"
+    "source_file": "https://github.com/esa/SpOC3/blob/b45d23bb1950212510fde3d7b6159e9f9f6fbad4/Challenge%202%20Interferometric%20Mission/problems/golomb_hard.py",
+    "source_sha256": "07e8028080676757de3dd18c837efe07f6e0ae4c140808eb78ab147bfddfe8ec",
+    "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4"
   }
 }

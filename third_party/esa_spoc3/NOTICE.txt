@@ -1,0 +1,29 @@
+ESA SpOC-3 Interferometric Mission reference evaluators
+Copyright 2024 European Space Agency
+
+Repository: https://github.com/esa/SpOC3
+Revision: b45d23bb1950212510fde3d7b6159e9f9f6fbad4
+Directory: Challenge 2 Interferometric Mission/problems/
+Files: golomb_simple.py, golomb_medium.py, golomb_hard.py
+
+The three Python files are byte-for-byte copies of the official sources.
+Their original copyright and Mozilla Public License 2.0 notices are retained.
+The full MPL-2.0 text is included in LICENSE-MPL-2.0.txt. The upstream
+repository's root LICENSE is retained as LICENSE-UPSTREAM-GPL-3.0.txt.
+These source files are attributed ESA reference code, not original student code.
+SHA-256 values and permanent source URLs are recorded in config/instances.json.
+
+Verified evaluation details at this revision:
+- fitness_impl returns [-min(fill_factor)], where each item is the sum for
+  XY, XZ and YZ at one observation. The objective is minimized.
+- The upstream README instead writes -max(...). This discrepancy is retained
+  and disclosed; the wrapper follows the unchanged executable reference code.
+- Inflation is applied once at each noninitial observation, not raised to
+  the observation index.
+- Inclusive decision bounds differ from strict spatial cropping.
+- This revision reads propagate_grid()[4]. heyoka.py >= 4.0 inserts a
+  callback before the solution array, moving the array to index 5. The
+  environment pins heyoka.py 3.2.0 to run the original source unchanged.
+  See https://bluescarni.github.io/heyoka.py/breaking_changes.html
+
+No optimizer or leaderboard submission is supplied in this integration.

@@ -1,0 +1,3 @@
+# Preserve ESA source hashes on Windows when autocrlf is enabled.
+third_party/esa_spoc3/*.py -text -whitespace
+third_party/esa_spoc3/LICENSE*.txt -text -whitespace

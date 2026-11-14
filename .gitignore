@@ -31,3 +31,9 @@ submission.json
 # Operating system
 .DS_Store
 Thumbs.db
+
+# Local credentials and machine-specific environment exports
+.env
+.env.*
+!.env.example
+environment-local.yml
