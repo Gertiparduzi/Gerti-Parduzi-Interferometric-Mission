@@ -1,4 +1,4 @@
-"""Inspect configurations or run a reproducible ESA evaluation, without solvers."""
+"""Inspect, evaluate or optimize ESA instances while preserving the foundation CLI."""
 
 import argparse
 import json
@@ -33,12 +33,21 @@ def main() -> int:
         "--evaluate", action="store_true",
         help="Evaluate one candidate; defaults to a zero-vector smoke test.",
     )
+    action.add_argument(
+        "--optimize", choices=("random-search", "ga", "de"),
+        help="Run one independently implemented optimizer.",
+    )
+    parser.add_argument("--budget", type=int, default=1000)
+    parser.add_argument("--seed", type=int, default=0)
+    parser.add_argument("--population-size", type=int, default=40)
     parser.add_argument("--chromosome", type=Path, help="JSON file containing a flat ESA vector.")
-    parser.add_argument("--report", type=Path, help="Write evaluation evidence to this JSON path.")
+    parser.add_argument("--report", type=Path, help="Write evaluation or optimization evidence as JSON.")
 
     args = parser.parse_args()
-    if (args.chromosome or args.report) and not args.evaluate:
-        parser.error("--chromosome and --report require --evaluate.")
+    if args.chromosome and not args.evaluate:
+        parser.error("--chromosome requires --evaluate.")
+    if args.report and not (args.evaluate or args.optimize):
+        parser.error("--report requires --evaluate or --optimize.")
     if args.check_environment:
         details = environment_details()
         print(json.dumps(details, indent=2))
@@ -58,8 +67,29 @@ def main() -> int:
     print(f"Grid: {config['grid_size']} x {config['grid_size']}")
     print(f"Observation times: {times}")
     print("Observation planes: XY, XZ, YZ")
-    if not args.evaluate:
-        print("Status: configuration loaded; use --check-environment or --evaluate.")
+    if not (args.evaluate or args.optimize):
+        print("Status: configuration loaded; use --check-environment, --evaluate or --optimize.")
+        return 0
+
+    if args.optimize:
+        from src.experiments import run_optimization, write_run
+        try:
+            evaluator = ESAEvaluator(args.instance)
+            record = run_optimization(evaluator, args.optimize, args.budget, seed=args.seed,
+                                      population_size=args.population_size)
+            record["environment"] = environment_details()
+            record["evaluator_initialization_seconds"] = evaluator.initialization_seconds
+            report = args.report or Path(
+                f"results/{args.instance}-{args.optimize}-seed{args.seed}-budget{args.budget}.json"
+            )
+            write_run(report, record)
+            print(f"Best objective (minimize): {record['best_fitness']:.17g}")
+            print(f"Objective evaluations: {record['evaluations']}")
+            print(f"Search time: {record['elapsed_seconds']:.6f} s")
+            print(f"Report: {report}")
+            print(f"Best vector: {report.with_suffix('.best.json')}")
+        except (OSError, ValueError, RuntimeError) as error:
+            parser.exit(2, f"Optimization failed: {error}\n")
         return 0
 
     try:
