@@ -52,6 +52,14 @@ class TestAdvancedContracts(unittest.TestCase):
                 second = solver(lambda x: float(x @ x), self.g, 83, seed=73)
                 self.assertEqual(first.to_dict(), second.to_dict())
 
+    def test_initialization_only_budgets_share_the_same_informed_samples(self):
+        results = [solver(lambda x: float(x @ x), self.g, 3, seed=18)
+                   for solver in (informed_random_search, informed_genetic_algorithm,
+                                  informed_differential_evolution)]
+        for result in results[1:]:
+            np.testing.assert_array_equal(result.best_chromosome, results[0].best_chromosome)
+            self.assertEqual(result.best_fitness, results[0].best_fitness)
+
     def test_restart_paths_remain_budgeted_and_keep_earliest_tied_incumbent(self):
         for solver in (informed_genetic_algorithm, informed_differential_evolution, sage_hybrid):
             options = dict(population_size=4)

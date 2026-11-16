@@ -162,7 +162,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--instances', nargs='+', choices=tuple(SOURCE_FILES), default=list(SOURCE_FILES))
     parser.add_argument('--variants', nargs='+', choices=VARIANTS,
-                        default=['random-search', 'ga', 'de', 'stm-random', 'stm-ga', 'stm-de', 'sage'])
+                        default=['random-search', 'ga', 'de', 'stm-random', 'stm-ga', 'stm-de', 'sage', 'stm-local'])
     parser.add_argument('--seeds', nargs='+', type=int, default=[11, 22, 33])
     parser.add_argument('--budget', type=int, default=2000)
     parser.add_argument('--population-size', type=int, default=40)
