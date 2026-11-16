@@ -1,0 +1,92 @@
+{
+  "algorithm": "sage_hybrid",
+  "seed": 11,
+  "best_chromosome": [
+    0.515855504207773,
+    0.5082468492446299,
+    -0.1489208732424001,
+    0.9899133551089521,
+    0.2939028693939001,
+    0.14780070245911148,
+    -0.36934219897567644,
+    0.19086777250757647,
+    0.07256083298062177,
+    -0.38791067927513145,
+    0.8055586282585097,
+    0.3352318505614429,
+    -0.20025178899548135,
+    -0.6262798153688722,
+    -0.19901577694108696,
+    0.9636948637129237,
+    -0.02764191929616544,
+    0.7031377093844249,
+    2.5285957805695993,
+    -0.18404694824701906,
+    1.3224274443080866,
+    1.325542425826825,
+    -0.3330383978088509,
+    2.556239167600868,
+    0.7012731266264502,
+    1.7420599224976776,
+    -3.287588142768593,
+    -2.432775661879875,
+    -1.7742005050706648,
+    2.8451583992335383
+  ],
+  "best_fitness": -0.14285714285714285,
+  "evaluations": 1500,
+  "best_found_at": 5,
+  "zero_fitness_evaluations": 0,
+  "history": [
+    {
+      "evaluations": 1,
+      "best_fitness": -0.12471655328798185
+    },
+    {
+      "evaluations": 5,
+      "best_fitness": -0.14285714285714285
+    },
+    {
+      "evaluations": 1500,
+      "best_fitness": -0.14285714285714285
+    }
+  ],
+  "schema_version": 2,
+  "timestamp_utc": "2026-11-16T11:49:25.676155+00:00",
+  "instance": "beginner",
+  "solver": "stm-local",
+  "parameters": {
+    "population_size": 40,
+    "genetic_fraction": 0.0,
+    "local_restart_after": 600
+  },
+  "problem_id": "tiny-observatory-in-dro",
+  "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4",
+  "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+  "objective_direction": "minimize",
+  "max_evaluations": 1500,
+  "initialization": "STM-whitened radial sampling",
+  "boundary_repair": "satellite radial contraction or feasible chord",
+  "history_kind": "strict-improvements-plus-final-evaluation",
+  "elapsed_seconds": 1.3028894189999392,
+  "geometry_setup_seconds": 0.00041281999995135266,
+  "geometry": {
+    "condition_number": 166.70239776896776,
+    "singular_values": [
+      47.15352387896538,
+      3.0408014067451132,
+      1.5175205937982674,
+      0.7945236441150053,
+      0.2989318855551948,
+      0.2828605017686385
+    ],
+    "whitening_residual": 5.296032531057632e-15,
+    "margin": 0.995
+  },
+  "post_search_fitness_calls": 1,
+  "official_verification_fitness": -0.14285714285714285,
+  "official_verification_matches": true,
+  "verification_seconds": 0.000619933000052697,
+  "process_peak_rss_mib": 334.078125,
+  "stage": "pilot"
+}

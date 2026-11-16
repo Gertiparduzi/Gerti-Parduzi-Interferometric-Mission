@@ -1,0 +1,86 @@
+{
+  "algorithm": "stm_random_search",
+  "seed": 22,
+  "best_chromosome": [
+    0.31751178888617093,
+    0.013428293373614064,
+    0.24425196601939736,
+    0.5563432632354299,
+    0.10997148185039984,
+    0.1030204359448621,
+    -0.1989892174644159,
+    0.3918378865400045,
+    -0.46930679926522134,
+    0.21881670091710692,
+    -0.39893722478481264,
+    -0.09779358559665785,
+    0.4072371741942744,
+    0.13768679401144746,
+    0.9699979386776456,
+    2.643388378977537,
+    -1.9356370424516012,
+    2.274498806424779,
+    0.09350309322007888,
+    2.4837772754253358,
+    0.8360027225933955,
+    0.01196525137474147,
+    0.7059081966885312,
+    1.3790854060691728,
+    0.3111573819797435,
+    -2.3632575167804895,
+    -0.6987883755205377,
+    1.1638218212694191,
+    -2.5124221704123704,
+    2.237457638047765
+  ],
+  "best_fitness": -0.14285714285714285,
+  "evaluations": 1500,
+  "best_found_at": 1,
+  "zero_fitness_evaluations": 0,
+  "history": [
+    {
+      "evaluations": 1,
+      "best_fitness": -0.14285714285714285
+    },
+    {
+      "evaluations": 1500,
+      "best_fitness": -0.14285714285714285
+    }
+  ],
+  "schema_version": 2,
+  "timestamp_utc": "2026-11-16T11:49:27.980291+00:00",
+  "instance": "beginner",
+  "solver": "stm-random",
+  "parameters": {
+    "informed_fraction": 1.0
+  },
+  "problem_id": "tiny-observatory-in-dro",
+  "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4",
+  "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+  "objective_direction": "minimize",
+  "max_evaluations": 1500,
+  "initialization": "STM-whitened radial sampling",
+  "boundary_repair": "satellite radial contraction or feasible chord",
+  "history_kind": "strict-improvements-plus-final-evaluation",
+  "elapsed_seconds": 1.1304209440000932,
+  "geometry_setup_seconds": 0.0002771570000277279,
+  "geometry": {
+    "condition_number": 166.70239776896776,
+    "singular_values": [
+      47.15352387896538,
+      3.0408014067451132,
+      1.5175205937982674,
+      0.7945236441150053,
+      0.2989318855551948,
+      0.2828605017686385
+    ],
+    "whitening_residual": 5.296032531057632e-15,
+    "margin": 0.995
+  },
+  "post_search_fitness_calls": 1,
+  "official_verification_fitness": -0.14285714285714285,
+  "official_verification_matches": true,
+  "verification_seconds": 0.0006254910000507152,
+  "process_peak_rss_mib": 334.078125,
+  "stage": "pilot"
+}

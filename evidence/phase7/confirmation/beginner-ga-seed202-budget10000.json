@@ -1,0 +1,93 @@
+{
+  "algorithm": "genetic_algorithm",
+  "seed": 202,
+  "best_chromosome": [
+    -0.3629415622433132,
+    -0.37155200479574135,
+    0.15375197311069133,
+    0.43410252707867336,
+    -0.24542215494002217,
+    -0.005504124685648204,
+    0.19862197787871771,
+    0.21932711217661027,
+    -0.26378742988743875,
+    0.1115287721293865,
+    0.18613864929345803,
+    -0.24690744245944818,
+    0.02952123396015005,
+    -0.06536903910001102,
+    0.05654558244554986,
+    -0.03728304040778596,
+    -4.485647877778932,
+    1.9327986248130316,
+    -3.362509414906234,
+    -0.22639167998266885,
+    -0.9111261752237336,
+    4.356970724683578,
+    0.39992766928835266,
+    -4.063280355212052,
+    -0.6037635147898932,
+    2.773499356766184,
+    -3.2345787329648923,
+    -3.413228507112165,
+    4.173612565099486,
+    -1.6195689124688144
+  ],
+  "best_fitness": -0.047619047619047616,
+  "evaluations": 10000,
+  "best_found_at": 1606,
+  "zero_fitness_evaluations": 755,
+  "history": [
+    {
+      "evaluations": 1,
+      "best_fitness": -0.0
+    },
+    {
+      "evaluations": 212,
+      "best_fitness": -0.006802721088435375
+    },
+    {
+      "evaluations": 562,
+      "best_fitness": -0.02040816326530612
+    },
+    {
+      "evaluations": 1606,
+      "best_fitness": -0.047619047619047616
+    },
+    {
+      "evaluations": 10000,
+      "best_fitness": -0.047619047619047616
+    }
+  ],
+  "schema_version": 1,
+  "timestamp_utc": "2026-11-16T11:52:23.124871+00:00",
+  "instance": "beginner",
+  "solver": "ga",
+  "problem_id": "tiny-observatory-in-dro",
+  "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4",
+  "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+  "objective_direction": "minimize",
+  "max_evaluations": 10000,
+  "parameters": {
+    "population_size": 40,
+    "tournament_size": 2,
+    "crossover_rate": 0.9,
+    "crossover_alpha": 0.25,
+    "mutation_probability": 0.03333333333333333,
+    "mutation_sigma": 0.05,
+    "elite_count": 1,
+    "n_satellites": 5
+  },
+  "initialization": "uniform-full-official-box",
+  "boundary_repair": "reflection",
+  "history_kind": "strict-improvements-plus-final-evaluation",
+  "elapsed_seconds": 7.959313348000023,
+  "post_search_fitness_calls": 1,
+  "geometry_setup_seconds": 0.0,
+  "geometry": null,
+  "official_verification_fitness": -0.047619047619047616,
+  "official_verification_matches": true,
+  "verification_seconds": 0.0006441789998916647,
+  "process_peak_rss_mib": 333.8984375,
+  "stage": "confirmation"
+}

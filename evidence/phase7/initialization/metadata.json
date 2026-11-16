@@ -1,0 +1,11 @@
+{
+  "seeds": [
+    901,
+    902,
+    903
+  ],
+  "samples_per_seed_method_instance": 100,
+  "objective_evaluations": 1800,
+  "diagnostic_only": true,
+  "warning": "Empirical frequencies on finite samples, not universal probabilities. No search or winner selection."
+}

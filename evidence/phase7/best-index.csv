@@ -1,0 +1,4 @@
+instance,fitness,solver,seed,stage,evaluations,best_found_at,chromosome_file,chromosome_sha256,all_satellites_survive,official_match
+beginner,-0.14285714285714285,sage,22,pilot,1500,1,best/beginner.best.json,6dd366db48219ecc4bbdb366414250f26927e6efb3de51d7fa8159e52bfb5468,True,True
+intermediate,-1.7233789411064842,stm-local,606,extended,50000,12968,best/intermediate.best.json,0439f624e99cf11004ba763a6f18515fbf342da4a62f439d5e064a0169745438,True,True
+hard,-1.3723973825104105,stm-local,505,extended,50000,30754,best/hard.best.json,8ae728b547da0c2d56c76d676c94ade3272cba5acff7b234fcfc205569dea7b1,True,True

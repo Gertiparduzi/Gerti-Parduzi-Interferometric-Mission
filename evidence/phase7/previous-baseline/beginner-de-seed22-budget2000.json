@@ -1,0 +1,73 @@
+{
+  "algorithm": "differential_evolution",
+  "seed": 22,
+  "best_chromosome": [
+    0.4754047693949923,
+    -0.14839780609731346,
+    -0.3625901681935244,
+    0.27064161427133926,
+    -0.02755081741054166,
+    0.5355309351275657,
+    0.5138102837924172,
+    0.7081256206672839,
+    0.6137286991059012,
+    0.5564088715170419,
+    0.5093002979580441,
+    0.9646017379735614,
+    -0.8277073505812305,
+    0.17449089298053555,
+    0.7394172105366352,
+    -3.6537184003262606,
+    1.6662714866363793,
+    -4.725227479457761,
+    4.032505797926685,
+    -9.740836237509608,
+    8.681121802301849,
+    -0.3133521823064118,
+    3.8661143120733836,
+    7.845322331159892,
+    2.8014624874326053,
+    1.6938231967435122,
+    -1.540882843101354,
+    6.624481639292227,
+    -1.1856034220071106,
+    2.59637112939188
+  ],
+  "best_fitness": -0.006802721088435375,
+  "evaluations": 2000,
+  "best_found_at": 474,
+  "zero_fitness_evaluations": 1995,
+  "history": [
+    {
+      "evaluations": 1,
+      "best_fitness": -0.0
+    },
+    {
+      "evaluations": 474,
+      "best_fitness": -0.006802721088435375
+    },
+    {
+      "evaluations": 2000,
+      "best_fitness": -0.006802721088435375
+    }
+  ],
+  "schema_version": 1,
+  "timestamp_utc": "2026-11-15T12:40:07.683760+00:00",
+  "instance": "beginner",
+  "solver": "de",
+  "problem_id": "tiny-observatory-in-dro",
+  "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4",
+  "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+  "objective_direction": "minimize",
+  "max_evaluations": 2000,
+  "parameters": {
+    "population_size": 40,
+    "F": 0.7,
+    "CR": 0.9
+  },
+  "initialization": "uniform-full-official-box",
+  "boundary_repair": "reflection",
+  "history_kind": "strict-improvements-plus-final-evaluation",
+  "elapsed_seconds": 2.226790474999916,
+  "post_search_fitness_calls": 0
+}

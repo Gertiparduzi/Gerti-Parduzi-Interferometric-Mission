@@ -1,0 +1,12 @@
+{
+  "authoritative_branch": "feat/random-search",
+  "authoritative_commit": "355adee126cff1ab9c4d2ece368e25042b542b7f",
+  "remote_verified_at_start": true,
+  "original_tracked_files": 32,
+  "original_files_changed": [],
+  "phase46_archive_snapshot_matches_remote": true,
+  "source_archives": {
+    "Interferometric_Mission_Fazat_4_5_6(1).zip": "9c78c512c5ca956090343107cd21cd0593e34e5cb4bd345aa4a8e643b249144b",
+    "Interferometric_Mission_Fazat_1_3(1).zip": "509cd23549b5e2ced7598211d696efffb7a666524cd5ccb35014963f5a349db7"
+  }
+}

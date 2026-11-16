@@ -1,0 +1,96 @@
+{
+  "algorithm": "sage_hybrid",
+  "seed": 101,
+  "best_chromosome": [
+    -0.1844456822372249,
+    -0.8315895433828923,
+    0.4731333342809183,
+    0.27024403248665707,
+    0.007817502744864813,
+    0.18863548439653166,
+    0.15238327446428346,
+    0.6795440093234222,
+    0.26147866740607606,
+    -0.6796253549199103,
+    -0.34255588901461675,
+    0.9595602778599295,
+    0.5822504731147453,
+    -0.3931695166161291,
+    -0.4446222564235379,
+    -0.39033600735458407,
+    -2.362901143543155,
+    6.193519903168596,
+    3.2676253033925935,
+    -3.793739496505264,
+    -0.5419412770605376,
+    -2.1667725585336095,
+    1.3379036037689378,
+    0.795158095374461,
+    -0.02760127422553893,
+    -3.2804766170733117,
+    -0.28766674934781733,
+    3.4333112519889752,
+    -1.370137638651956,
+    0.31831018798216526
+  ],
+  "best_fitness": -0.14285714285714285,
+  "evaluations": 10000,
+  "best_found_at": 12,
+  "zero_fitness_evaluations": 0,
+  "history": [
+    {
+      "evaluations": 1,
+      "best_fitness": -0.11564625850340136
+    },
+    {
+      "evaluations": 2,
+      "best_fitness": -0.12471655328798185
+    },
+    {
+      "evaluations": 12,
+      "best_fitness": -0.14285714285714285
+    },
+    {
+      "evaluations": 10000,
+      "best_fitness": -0.14285714285714285
+    }
+  ],
+  "schema_version": 2,
+  "timestamp_utc": "2026-11-16T11:51:59.439662+00:00",
+  "instance": "beginner",
+  "solver": "sage",
+  "parameters": {
+    "population_size": 40,
+    "genetic_fraction": 0.2,
+    "local_restart_after": 600
+  },
+  "problem_id": "tiny-observatory-in-dro",
+  "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4",
+  "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+  "objective_direction": "minimize",
+  "max_evaluations": 10000,
+  "initialization": "STM-whitened radial sampling",
+  "boundary_repair": "satellite radial contraction or feasible chord",
+  "history_kind": "strict-improvements-plus-final-evaluation",
+  "elapsed_seconds": 9.19928603599999,
+  "geometry_setup_seconds": 0.0007937639999227031,
+  "geometry": {
+    "condition_number": 166.70239776896776,
+    "singular_values": [
+      47.15352387896538,
+      3.0408014067451132,
+      1.5175205937982674,
+      0.7945236441150053,
+      0.2989318855551948,
+      0.2828605017686385
+    ],
+    "whitening_residual": 5.296032531057632e-15,
+    "margin": 0.995
+  },
+  "post_search_fitness_calls": 1,
+  "official_verification_fitness": -0.14285714285714285,
+  "official_verification_matches": true,
+  "verification_seconds": 0.0006471729999475428,
+  "process_peak_rss_mib": 333.8984375,
+  "stage": "confirmation"
+}

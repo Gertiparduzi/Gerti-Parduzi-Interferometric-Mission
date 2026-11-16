@@ -1,0 +1,96 @@
+{
+  "algorithm": "sage_hybrid",
+  "seed": 303,
+  "best_chromosome": [
+    -0.5320250744951788,
+    -0.39203295765611157,
+    -7.363836128460033e-05,
+    -0.5647567565508242,
+    0.25999345193050294,
+    -0.9116383932645954,
+    -0.5851091758828262,
+    -0.05147902186535591,
+    -0.13435382178174304,
+    0.2295494662197073,
+    -0.6215273227367879,
+    -0.8113841691982092,
+    0.41678618154932945,
+    0.3454541586066959,
+    -0.029612544851902012,
+    -5.724642392035307,
+    -2.8822700992819588,
+    -0.8367678390503137,
+    -1.6832046487331773,
+    2.668447655344446,
+    -1.4964987329204327,
+    -1.0858106929461293,
+    -0.03104649478206767,
+    -1.4647533822772942,
+    0.7632188316771007,
+    2.3620923162008367,
+    3.0267123034045333,
+    3.054529785280433,
+    3.000372251216902,
+    -1.7328252322807032
+  ],
+  "best_fitness": -0.14285714285714285,
+  "evaluations": 10000,
+  "best_found_at": 6,
+  "zero_fitness_evaluations": 0,
+  "history": [
+    {
+      "evaluations": 1,
+      "best_fitness": -0.11564625850340136
+    },
+    {
+      "evaluations": 2,
+      "best_fitness": -0.12471655328798185
+    },
+    {
+      "evaluations": 6,
+      "best_fitness": -0.14285714285714285
+    },
+    {
+      "evaluations": 10000,
+      "best_fitness": -0.14285714285714285
+    }
+  ],
+  "schema_version": 2,
+  "timestamp_utc": "2026-11-16T11:54:18.691927+00:00",
+  "instance": "beginner",
+  "solver": "stm-local",
+  "parameters": {
+    "population_size": 40,
+    "genetic_fraction": 0.0,
+    "local_restart_after": 600
+  },
+  "problem_id": "tiny-observatory-in-dro",
+  "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4",
+  "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+  "objective_direction": "minimize",
+  "max_evaluations": 10000,
+  "initialization": "STM-whitened radial sampling",
+  "boundary_repair": "satellite radial contraction or feasible chord",
+  "history_kind": "strict-improvements-plus-final-evaluation",
+  "elapsed_seconds": 9.506025830999988,
+  "geometry_setup_seconds": 0.0003370869999343995,
+  "geometry": {
+    "condition_number": 166.70239776896776,
+    "singular_values": [
+      47.15352387896538,
+      3.0408014067451132,
+      1.5175205937982674,
+      0.7945236441150053,
+      0.2989318855551948,
+      0.2828605017686385
+    ],
+    "whitening_residual": 5.296032531057632e-15,
+    "margin": 0.995
+  },
+  "post_search_fitness_calls": 1,
+  "official_verification_fitness": -0.14285714285714285,
+  "official_verification_matches": true,
+  "verification_seconds": 0.0005886950000331126,
+  "process_peak_rss_mib": 333.8984375,
+  "stage": "confirmation"
+}

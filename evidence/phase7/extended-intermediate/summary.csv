@@ -1,0 +1,2 @@
+instance,solver,runs,evaluations_per_run,best,median,mean,worst,sample_std,mean_seconds,mean_zero_fitness_fraction
+intermediate,stm-local,3,50000,-1.7233789411064842,-1.710291493158834,-1.7063255998413642,-1.6853063652587745,0.01934364211502229,75.01152143999995,0.0

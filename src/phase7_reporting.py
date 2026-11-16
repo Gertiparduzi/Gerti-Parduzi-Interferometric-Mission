@@ -179,6 +179,10 @@ def make_plots(root):
             ax.set(xlim=(-1, 1), ylim=(-1, 1), zlim=(-1, 1), xlabel='X', ylabel='Y', zlabel='Z',
                    title=f"t={column}T: {observation['survivor_count']}/{n} inside")
             ax.set_box_aspect((1, 1, 1))
+            ax.set_xticks([-1, -.5, 0, .5, 1])
+            ax.set_yticks([-1, -.5, 0, .5, 1])
+            ax.set_zticks([-1, -.5, 0, .5, 1])
+            ax.tick_params(labelsize=8, pad=1)
             ax.view_init(elev=20, azim=38)
         figure.suptitle(f'{instance.capitalize()}: observation coordinates normalized exactly as ESA\n'
                        'Later epochs divided by the single inflation factor 1.23', fontsize=12)

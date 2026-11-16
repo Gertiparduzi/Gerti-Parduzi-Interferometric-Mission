@@ -1,0 +1,87 @@
+{
+  "timestamp_utc": "2026-11-16T12:10:23.158372+00:00",
+  "stage": "extended",
+  "base_commit": "355adee126cff1ab9c4d2ece368e25042b542b7f",
+  "instances": [
+    "hard"
+  ],
+  "seeds": [
+    404,
+    505,
+    606
+  ],
+  "variants": [
+    "stm-local"
+  ],
+  "search_budget_per_run": 50000,
+  "population_size": 40,
+  "source_fingerprint": {
+    "main.py": "a94ceebe163167e3c49736101fd868dd19f1ce8484da89c8cda3b8a01a2c7bbd",
+    "src/advanced_experiments.py": "1579e689f44acef8512f2bfc91eb6ead792af4353499e7656f88e2a66f01abab",
+    "src/advanced_optimization.py": "1c6fcc7a2a3a6fd6184a796c6611eb01519b0f8d28126cd3c787fcab116cbaf1",
+    "src/chromosome.py": "e16beef30b87441b9e924040ee32feb5306d825c4027eb0409eb05ad5a72fdaa",
+    "src/differential_evolution.py": "30f8ae1d53a8ba40f05762d390365b201f2a139780badaa240ce87b1b860315f",
+    "src/evaluator.py": "563d186394879db8fd0347804f131b6313cbdc4d26e69cf93996f5bbdc5f0585",
+    "src/experiments.py": "1895640eac537cf89a49a6c3a6f8c90705f7b167e05d649a5e802a95b3d00ede",
+    "src/formation_diagnostics.py": "9209dfab110b213728c5b6fbbbdd066cd2d61e1acbd61d5dab0fb739e1550786",
+    "src/genetic_algorithm.py": "e3c4e97880b52e4324b0fd6b6f4123d43f61806a4bef165a15f6cf95d8711f63",
+    "src/hybrid_optimization.py": "c4d0fa5198b8c2888a8728a9aefe2908b9434c76f9b14455c7d60c8df23e6f38",
+    "src/initialization_study.py": "5452fd331d0f4d4b90cf3ab7246dadc5d41b85a5c1ff9a709cab488411f593a5",
+    "src/optimization.py": "81172c0f53f685eb0160a12a92422adddbfa698e7545b1049e129cf6dd1d7efc",
+    "src/phase7_reporting.py": "6ab8f8c48af6d7855f822ffad23b7f8af0792d0e000ecc70435f788a3589ef30",
+    "src/random_search.py": "5853a86d66bba310f910c2583ca0beff6c7f9972d2e9967454beb205090dbc77",
+    "src/stm_initialization.py": "9b80c0dfd748aee0110609c0c6198cf5be80cab740ac2c4958822f5f75e1e478"
+  },
+  "environment": {
+    "python": "3.12.15",
+    "executable": "/workspace/scratch/cef4f11b88bb/mission/../mission-conda/bin/python",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": {
+        "status": "ok",
+        "version": "1.26.4"
+      },
+      "scipy": {
+        "status": "ok",
+        "version": "1.14.1"
+      },
+      "matplotlib": {
+        "status": "ok",
+        "version": "3.9.2"
+      },
+      "pillow": {
+        "status": "ok",
+        "version": "10.4.0"
+      },
+      "heyoka": {
+        "status": "ok",
+        "version": "3.2.0"
+      },
+      "pygmo": {
+        "status": "ok",
+        "version": "2.19.6"
+      }
+    },
+    "all_imports_ok": true,
+    "reference_api_compatible": true
+  },
+  "official_sources": {
+    "beginner": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+    "intermediate": "0c40b8c3d5af0b7df001c102862715f661785a3bbdece2abaf8c8849190bc133",
+    "hard": "07e8028080676757de3dd18c837efe07f6e0ae4c140808eb78ab147bfddfe8ec"
+  },
+  "counting": "All initialization/proposals/restarts counted. One separate direct ESA recheck per run.",
+  "timing": "elapsed_seconds includes STM geometry setup and search, excludes ESA import and final recheck.",
+  "memory": "process_peak_rss_mib is cumulative process lifetime RSS high-water, not per-run memory.",
+  "prior_candidates_injected": false,
+  "evaluator_initialization_seconds": {
+    "hard": 0.06184712300000683
+  },
+  "completed": true,
+  "implementation_commit": "6d9e52e26054bb8788bf2d9541bcd84db70ef0b9",
+  "git_status": "?? evidence/\n",
+  "runs": 3,
+  "search_evaluations": 150000,
+  "verification_evaluations": 3,
+  "all_official_rechecks_match": true
+}

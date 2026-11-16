@@ -1,0 +1,33 @@
+{
+  "python": "3.12.15",
+  "executable": "/workspace/scratch/cef4f11b88bb/mission/../mission-conda/bin/python",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "packages": {
+    "numpy": {
+      "status": "ok",
+      "version": "1.26.4"
+    },
+    "scipy": {
+      "status": "ok",
+      "version": "1.14.1"
+    },
+    "matplotlib": {
+      "status": "ok",
+      "version": "3.9.2"
+    },
+    "pillow": {
+      "status": "ok",
+      "version": "10.4.0"
+    },
+    "heyoka": {
+      "status": "ok",
+      "version": "3.2.0"
+    },
+    "pygmo": {
+      "status": "ok",
+      "version": "2.19.6"
+    }
+  },
+  "all_imports_ok": true,
+  "reference_api_compatible": true
+}

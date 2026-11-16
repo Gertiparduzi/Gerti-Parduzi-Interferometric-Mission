@@ -1,0 +1,41 @@
+[
+  {
+    "instance": "beginner",
+    "fitness": -0.14285714285714285,
+    "solver": "sage",
+    "seed": 22,
+    "stage": "pilot",
+    "evaluations": 1500,
+    "best_found_at": 1,
+    "chromosome_file": "best/beginner.best.json",
+    "chromosome_sha256": "6dd366db48219ecc4bbdb366414250f26927e6efb3de51d7fa8159e52bfb5468",
+    "all_satellites_survive": true,
+    "official_match": true
+  },
+  {
+    "instance": "intermediate",
+    "fitness": -1.7233789411064842,
+    "solver": "stm-local",
+    "seed": 606,
+    "stage": "extended",
+    "evaluations": 50000,
+    "best_found_at": 12968,
+    "chromosome_file": "best/intermediate.best.json",
+    "chromosome_sha256": "0439f624e99cf11004ba763a6f18515fbf342da4a62f439d5e064a0169745438",
+    "all_satellites_survive": true,
+    "official_match": true
+  },
+  {
+    "instance": "hard",
+    "fitness": -1.3723973825104105,
+    "solver": "stm-local",
+    "seed": 505,
+    "stage": "extended",
+    "evaluations": 50000,
+    "best_found_at": 30754,
+    "chromosome_file": "best/hard.best.json",
+    "chromosome_sha256": "8ae728b547da0c2d56c76d676c94ade3272cba5acff7b234fcfc205569dea7b1",
+    "all_satellites_survive": true,
+    "official_match": true
+  }
+]

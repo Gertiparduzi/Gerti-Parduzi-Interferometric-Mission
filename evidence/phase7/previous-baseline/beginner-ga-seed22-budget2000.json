@@ -1,0 +1,82 @@
+{
+  "algorithm": "genetic_algorithm",
+  "seed": 22,
+  "best_chromosome": [
+    -0.24369620750040344,
+    -0.356033002179861,
+    -0.35570658429101976,
+    0.44646090964090734,
+    -0.016387919490018055,
+    0.2814170140380714,
+    0.1796493659824845,
+    -0.20127611976152326,
+    0.3409834625945629,
+    -0.18650220277090512,
+    -0.09694378514860347,
+    -0.12272891451517576,
+    0.08423290230372293,
+    -0.16431827585036785,
+    0.1745668279114443,
+    1.9041026081950818,
+    0.994038132066855,
+    -0.22526219009486326,
+    0.40007449401447737,
+    -0.7992808402370475,
+    -0.5788151584341765,
+    -4.146556931484985,
+    2.3387862419531587,
+    -3.709772808972513,
+    0.006260995307986406,
+    -1.0560424545514024,
+    -2.0235750641789405,
+    -2.6998585913341655,
+    0.11846134431306332,
+    0.07365184602630315
+  ],
+  "best_fitness": -0.02040816326530612,
+  "evaluations": 2000,
+  "best_found_at": 723,
+  "zero_fitness_evaluations": 648,
+  "history": [
+    {
+      "evaluations": 1,
+      "best_fitness": -0.0
+    },
+    {
+      "evaluations": 242,
+      "best_fitness": -0.006802721088435375
+    },
+    {
+      "evaluations": 723,
+      "best_fitness": -0.02040816326530612
+    },
+    {
+      "evaluations": 2000,
+      "best_fitness": -0.02040816326530612
+    }
+  ],
+  "schema_version": 1,
+  "timestamp_utc": "2026-11-15T12:40:05.456236+00:00",
+  "instance": "beginner",
+  "solver": "ga",
+  "problem_id": "tiny-observatory-in-dro",
+  "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4",
+  "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+  "objective_direction": "minimize",
+  "max_evaluations": 2000,
+  "parameters": {
+    "population_size": 40,
+    "tournament_size": 2,
+    "crossover_rate": 0.9,
+    "crossover_alpha": 0.25,
+    "mutation_probability": 0.03333333333333333,
+    "mutation_sigma": 0.05,
+    "elite_count": 1,
+    "n_satellites": 5
+  },
+  "initialization": "uniform-full-official-box",
+  "boundary_repair": "reflection",
+  "history_kind": "strict-improvements-plus-final-evaluation",
+  "elapsed_seconds": 2.3056461930000296,
+  "post_search_fitness_calls": 0
+}

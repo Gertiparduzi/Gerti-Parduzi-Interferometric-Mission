@@ -1,0 +1,82 @@
+{
+  "algorithm": "genetic_algorithm",
+  "seed": 55,
+  "best_chromosome": [
+    -0.045063396194936156,
+    0.40032032912794424,
+    -0.5315869492845826,
+    0.2727301308149801,
+    0.3524496023822983,
+    0.060632311354716695,
+    0.3319942641567728,
+    0.2402445587534432,
+    0.03244906084964083,
+    0.19156438162842093,
+    0.13257853627963612,
+    -0.5988101581033696,
+    -0.6166919779562496,
+    0.13845060904991624,
+    -0.2399876712844573,
+    4.280860561273903,
+    6.011931320112701,
+    3.717140571971587,
+    2.3290215677192005,
+    0.4537662225481789,
+    -2.740395380792987,
+    -1.2893477333452132,
+    -4.727267699498374,
+    0.7590420755991172,
+    0.8759540705962507,
+    -1.2173685881974734,
+    -5.52562030459725,
+    -3.511704760968324,
+    -0.7946906819190307,
+    1.7414797302294929
+  ],
+  "best_fitness": -0.02040816326530612,
+  "evaluations": 2000,
+  "best_found_at": 1319,
+  "zero_fitness_evaluations": 1311,
+  "history": [
+    {
+      "evaluations": 1,
+      "best_fitness": -0.0
+    },
+    {
+      "evaluations": 250,
+      "best_fitness": -0.006802721088435375
+    },
+    {
+      "evaluations": 1319,
+      "best_fitness": -0.02040816326530612
+    },
+    {
+      "evaluations": 2000,
+      "best_fitness": -0.02040816326530612
+    }
+  ],
+  "schema_version": 1,
+  "timestamp_utc": "2026-11-15T12:40:27.425836+00:00",
+  "instance": "beginner",
+  "solver": "ga",
+  "problem_id": "tiny-observatory-in-dro",
+  "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4",
+  "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+  "objective_direction": "minimize",
+  "max_evaluations": 2000,
+  "parameters": {
+    "population_size": 40,
+    "tournament_size": 2,
+    "crossover_rate": 0.9,
+    "crossover_alpha": 0.25,
+    "mutation_probability": 0.03333333333333333,
+    "mutation_sigma": 0.05,
+    "elite_count": 1,
+    "n_satellites": 5
+  },
+  "initialization": "uniform-full-official-box",
+  "boundary_repair": "reflection",
+  "history_kind": "strict-improvements-plus-final-evaluation",
+  "elapsed_seconds": 2.554189425000004,
+  "post_search_fitness_calls": 0
+}

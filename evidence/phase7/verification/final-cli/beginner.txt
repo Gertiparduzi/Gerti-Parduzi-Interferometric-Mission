@@ -1,0 +1,15 @@
+Interferometric Mission - ESA reference evaluation
+Instance: beginner
+ESA problem ID: tiny-observatory-in-dro
+Mothership orbit: DRO
+Satellites: 5
+Decision variables: 30
+Grid: 11 x 11
+Observation times: [0.0, 2.6905181697222775, 5.381036339444555]
+Observation planes: XY, XZ, YZ
+Candidate: provided-json-vector
+Objective (minimize): -0.14285714285714285
+Direct ESA agreement: True
+Initialization: 6.150982 s
+One evaluation: 0.302764 s
+Report: ../verification/final-cli/beginner.json

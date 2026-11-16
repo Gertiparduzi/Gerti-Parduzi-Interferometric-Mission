@@ -1,0 +1,80 @@
+{
+  "repository": "https://github.com/Gertiparduzi/Gerti-Parduzi-Interferometric-Mission",
+  "base_commit": "6c5b3e76a6f55b28429026b76f108f788c5e9d9e",
+  "prepared_branch": "work/phases-4-6",
+  "target_local_branch": "feat/random-search",
+  "head": "355adee126cff1ab9c4d2ece368e25042b542b7f",
+  "commits": [
+    {
+      "sha": "d18561a37417ebc7abb016a025e819b4adc80027",
+      "message": "feat: implement reproducible budgeted random search"
+    },
+    {
+      "sha": "2c45315882713502c8d2d61b165d71d491312528",
+      "message": "feat: implement satellite-aware real-coded genetic algorithm"
+    },
+    {
+      "sha": "355adee126cff1ab9c4d2ece368e25042b542b7f",
+      "message": "feat: implement differential evolution and equal-budget experiments"
+    }
+  ],
+  "tests": {
+    "run": 89,
+    "seconds": 10.146,
+    "passed": true,
+    "previous_foundation_tests_unchanged": 41
+  },
+  "experiment": {
+    "runs": 45,
+    "search_evaluations_per_run": 2000,
+    "formal_study_search_evaluations": 90000,
+    "additional_saved_vector_verification_evaluations": 45,
+    "all_45_saved_vectors_match_official": true,
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "search_seconds": 150.7764890299984
+  },
+  "actual_environment": {
+    "python": "3.12.15",
+    "executable": "/tmp/mission-conda/bin/python",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": {
+        "status": "ok",
+        "version": "1.26.4"
+      },
+      "scipy": {
+        "status": "ok",
+        "version": "1.14.1"
+      },
+      "matplotlib": {
+        "status": "ok",
+        "version": "3.9.2"
+      },
+      "pillow": {
+        "status": "ok",
+        "version": "10.4.0"
+      },
+      "heyoka": {
+        "status": "ok",
+        "version": "3.2.0"
+      },
+      "pygmo": {
+        "status": "ok",
+        "version": "2.19.6"
+      }
+    },
+    "all_imports_ok": true,
+    "reference_api_compatible": true
+  },
+  "windows_runtime_executed": false,
+  "linked_worktree_delivery_verified": true,
+  "pushed_to_github": false,
+  "pull_request_created": false,
+  "foundation_evaluator_config_dependencies_and_tests_unchanged": true
+}

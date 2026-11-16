@@ -1,0 +1,6 @@
+intermediate stm-local     seed= 404 budget= 50000 best=-1.685306365259 seconds=73.89
+intermediate stm-local     seed= 505 budget= 50000 best=-1.710291493159 seconds=73.58
+intermediate stm-local     seed= 606 budget= 50000 best=-1.723378941106 seconds=77.56
+hard         stm-local     seed= 404 budget= 50000 best=-1.353361094587 seconds=73.56
+hard         stm-local     seed= 505 budget= 50000 best=-1.372397382510 seconds=72.89
+hard         stm-local     seed= 606 budget= 50000 best=-1.330755502677 seconds=72.60

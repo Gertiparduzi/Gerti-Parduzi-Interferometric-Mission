@@ -1,0 +1,15 @@
+[
+  {
+    "instance": "intermediate",
+    "solver": "stm-local",
+    "runs": 3,
+    "evaluations_per_run": 50000,
+    "best": -1.7233789411064842,
+    "median": -1.710291493158834,
+    "mean": -1.7063255998413642,
+    "worst": -1.6853063652587745,
+    "sample_std": 0.01934364211502229,
+    "mean_seconds": 75.01152143999995,
+    "mean_zero_fitness_fraction": 0.0
+  }
+]

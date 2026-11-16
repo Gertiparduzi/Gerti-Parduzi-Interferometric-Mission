@@ -1,0 +1,100 @@
+{
+  "algorithm": "sage_hybrid",
+  "seed": 101,
+  "best_chromosome": [
+    -0.19964106448777819,
+    -0.17397339061138672,
+    0.6378798376821602,
+    -0.25441964740975176,
+    -0.4540001099383457,
+    -0.4803581448897478,
+    -0.04198772842686249,
+    0.9299489330564696,
+    -0.0595334982210558,
+    0.07624808274607742,
+    0.1532216534941846,
+    0.11250510799532965,
+    -0.6895550577629997,
+    -0.05044339809919873,
+    0.28057639062758755,
+    -2.0880121514858327,
+    -1.5568872615378329,
+    5.786600730856193,
+    0.23819213855471233,
+    -1.786367666480352,
+    -0.5516907561419764,
+    -0.4420867418830152,
+    1.7019227693984433,
+    -0.642272849523982,
+    -1.2585612725889703,
+    -1.1961070872745871,
+    1.7108291403799836,
+    -3.2431890287540437,
+    -0.4813813664019708,
+    -3.0693504062502077
+  ],
+  "best_fitness": -0.14285714285714285,
+  "evaluations": 10000,
+  "best_found_at": 38,
+  "zero_fitness_evaluations": 0,
+  "history": [
+    {
+      "evaluations": 1,
+      "best_fitness": -0.11564625850340136
+    },
+    {
+      "evaluations": 3,
+      "best_fitness": -0.13378684807256236
+    },
+    {
+      "evaluations": 13,
+      "best_fitness": -0.1383219954648526
+    },
+    {
+      "evaluations": 38,
+      "best_fitness": -0.14285714285714285
+    },
+    {
+      "evaluations": 10000,
+      "best_fitness": -0.14285714285714285
+    }
+  ],
+  "schema_version": 2,
+  "timestamp_utc": "2026-11-16T11:52:08.238158+00:00",
+  "instance": "beginner",
+  "solver": "stm-local",
+  "parameters": {
+    "population_size": 40,
+    "genetic_fraction": 0.0,
+    "local_restart_after": 600
+  },
+  "problem_id": "tiny-observatory-in-dro",
+  "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4",
+  "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+  "objective_direction": "minimize",
+  "max_evaluations": 10000,
+  "initialization": "STM-whitened radial sampling",
+  "boundary_repair": "satellite radial contraction or feasible chord",
+  "history_kind": "strict-improvements-plus-final-evaluation",
+  "elapsed_seconds": 8.795733516000155,
+  "geometry_setup_seconds": 0.0005771480000476004,
+  "geometry": {
+    "condition_number": 166.70239776896776,
+    "singular_values": [
+      47.15352387896538,
+      3.0408014067451132,
+      1.5175205937982674,
+      0.7945236441150053,
+      0.2989318855551948,
+      0.2828605017686385
+    ],
+    "whitening_residual": 5.296032531057632e-15,
+    "margin": 0.995
+  },
+  "post_search_fitness_calls": 1,
+  "official_verification_fitness": -0.14285714285714285,
+  "official_verification_matches": true,
+  "verification_seconds": 0.0008600130000786521,
+  "process_peak_rss_mib": 333.8984375,
+  "stage": "confirmation"
+}

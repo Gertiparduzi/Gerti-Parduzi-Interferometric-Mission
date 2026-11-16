@@ -1,0 +1,91 @@
+{
+  "timestamp_utc": "2026-11-16T12:17:21.533034+00:00",
+  "instance": "beginner",
+  "problem_id": "tiny-observatory-in-dro",
+  "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4",
+  "verified_source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+  "n_sat": 5,
+  "decision_variables": 30,
+  "observation_times": [
+    0.0,
+    2.6905181697222775,
+    5.381036339444555
+  ],
+  "candidate_kind": "provided-json-vector",
+  "chromosome": [
+    0.31751178888617093,
+    0.013428293373614064,
+    0.24425196601939736,
+    0.5563432632354299,
+    0.10997148185039984,
+    0.1030204359448621,
+    -0.1989892174644159,
+    0.3918378865400045,
+    -0.46930679926522134,
+    0.21881670091710692,
+    -0.39893722478481264,
+    -0.09779358559665785,
+    0.4072371741942744,
+    0.13768679401144746,
+    0.9699979386776456,
+    2.643388378977537,
+    -1.9356370424516012,
+    2.274498806424779,
+    0.09350309322007888,
+    2.4837772754253358,
+    0.8360027225933955,
+    0.01196525137474147,
+    0.7059081966885312,
+    1.3790854060691728,
+    0.3111573819797435,
+    -2.3632575167804895,
+    -0.6987883755205377,
+    1.1638218212694191,
+    -2.5124221704123704,
+    2.237457638047765
+  ],
+  "fitness": [
+    -0.14285714285714285
+  ],
+  "objective_direction": "minimize",
+  "objective_definition": "-min(sum_xy_xz_yz_at_each_epoch)",
+  "direct_esa_fitness": [
+    -0.14285714285714285
+  ],
+  "direct_reference_match": true,
+  "initialization_seconds": 6.1509821760000705,
+  "evaluation_seconds": 0.30276361699998233,
+  "environment": {
+    "python": "3.12.15",
+    "executable": "/workspace/scratch/cef4f11b88bb/mission/../mission-conda/bin/python",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": {
+        "status": "ok",
+        "version": "1.26.4"
+      },
+      "scipy": {
+        "status": "ok",
+        "version": "1.14.1"
+      },
+      "matplotlib": {
+        "status": "ok",
+        "version": "3.9.2"
+      },
+      "pillow": {
+        "status": "ok",
+        "version": "10.4.0"
+      },
+      "heyoka": {
+        "status": "ok",
+        "version": "3.2.0"
+      },
+      "pygmo": {
+        "status": "ok",
+        "version": "2.19.6"
+      }
+    },
+    "all_imports_ok": true,
+    "reference_api_compatible": true
+  }
+}

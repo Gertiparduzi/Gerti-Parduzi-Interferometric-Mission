@@ -1,0 +1,69 @@
+{
+  "timestamp_utc": "2026-11-15T12:39:46.934133+00:00",
+  "instances": [
+    "beginner",
+    "intermediate",
+    "hard"
+  ],
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "algorithms": [
+    "random-search",
+    "ga",
+    "de"
+  ],
+  "search_evaluations_per_run": 2000,
+  "population_size": 40,
+  "environment": {
+    "python": "3.12.15",
+    "executable": "/tmp/mission-conda/bin/python",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": {
+        "status": "ok",
+        "version": "1.26.4"
+      },
+      "scipy": {
+        "status": "ok",
+        "version": "1.14.1"
+      },
+      "matplotlib": {
+        "status": "ok",
+        "version": "3.9.2"
+      },
+      "pillow": {
+        "status": "ok",
+        "version": "10.4.0"
+      },
+      "heyoka": {
+        "status": "ok",
+        "version": "3.2.0"
+      },
+      "pygmo": {
+        "status": "ok",
+        "version": "2.19.6"
+      }
+    },
+    "all_imports_ok": true,
+    "reference_api_compatible": true
+  },
+  "verified_sources": {
+    "beginner": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+    "intermediate": "0c40b8c3d5af0b7df001c102862715f661785a3bbdece2abaf8c8849190bc133",
+    "hard": "07e8028080676757de3dd18c837efe07f6e0ae4c140808eb78ab147bfddfe8ec"
+  },
+  "counting": "Initialization included; no uncounted objective calls.",
+  "initialization": "Uniform full official box for every solver; no injected solution.",
+  "evaluator_initialization_seconds": {
+    "beginner": 6.681478636000065,
+    "intermediate": 0.06627123899988874,
+    "hard": 0.10291266600006566
+  },
+  "project_commit": "355adee126cff1ab9c4d2ece368e25042b542b7f",
+  "project_tracked_files_dirty": false
+}

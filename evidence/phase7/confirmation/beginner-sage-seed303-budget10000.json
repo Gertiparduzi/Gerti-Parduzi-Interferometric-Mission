@@ -1,0 +1,92 @@
+{
+  "algorithm": "sage_hybrid",
+  "seed": 303,
+  "best_chromosome": [
+    0.592851888249988,
+    -0.06490652312272716,
+    0.3712690176118105,
+    0.08574430553526713,
+    -0.012522733812024955,
+    -0.18935503600383363,
+    -0.03406404513462602,
+    -0.6748201306473206,
+    -0.11909514489531325,
+    0.3355373542993809,
+    0.7895330106791576,
+    -0.04719876073347207,
+    0.21463399354000212,
+    0.1878850181733045,
+    0.3350960525127913,
+    0.4737167223180645,
+    0.6262491639901704,
+    -2.9499006563653936,
+    -1.0544454660964035,
+    2.65840871566178,
+    1.5141937483470471,
+    -0.1822805753073684,
+    0.8955158167445028,
+    0.14969585414279507,
+    0.012134975112299884,
+    2.210574342481639,
+    -0.19658548191301506,
+    4.530725358160833,
+    -0.1469705549016158,
+    -2.609625604606446
+  ],
+  "best_fitness": -0.14285714285714285,
+  "evaluations": 10000,
+  "best_found_at": 2,
+  "zero_fitness_evaluations": 0,
+  "history": [
+    {
+      "evaluations": 1,
+      "best_fitness": -0.11564625850340136
+    },
+    {
+      "evaluations": 2,
+      "best_fitness": -0.14285714285714285
+    },
+    {
+      "evaluations": 10000,
+      "best_fitness": -0.14285714285714285
+    }
+  ],
+  "schema_version": 2,
+  "timestamp_utc": "2026-11-16T11:54:09.184127+00:00",
+  "instance": "beginner",
+  "solver": "sage",
+  "parameters": {
+    "population_size": 40,
+    "genetic_fraction": 0.2,
+    "local_restart_after": 600
+  },
+  "problem_id": "tiny-observatory-in-dro",
+  "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4",
+  "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+  "objective_direction": "minimize",
+  "max_evaluations": 10000,
+  "initialization": "STM-whitened radial sampling",
+  "boundary_repair": "satellite radial contraction or feasible chord",
+  "history_kind": "strict-improvements-plus-final-evaluation",
+  "elapsed_seconds": 8.658402373000058,
+  "geometry_setup_seconds": 0.0003294150000101581,
+  "geometry": {
+    "condition_number": 166.70239776896776,
+    "singular_values": [
+      47.15352387896538,
+      3.0408014067451132,
+      1.5175205937982674,
+      0.7945236441150053,
+      0.2989318855551948,
+      0.2828605017686385
+    ],
+    "whitening_residual": 5.296032531057632e-15,
+    "margin": 0.995
+  },
+  "post_search_fitness_calls": 1,
+  "official_verification_fitness": -0.14285714285714285,
+  "official_verification_matches": true,
+  "verification_seconds": 0.000717979999990348,
+  "process_peak_rss_mib": 333.8984375,
+  "stage": "confirmation"
+}

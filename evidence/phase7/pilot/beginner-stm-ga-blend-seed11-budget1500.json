@@ -1,0 +1,97 @@
+{
+  "algorithm": "stm_genetic_algorithm",
+  "seed": 11,
+  "best_chromosome": [
+    0.022755145429752988,
+    0.700262188133437,
+    -0.8573510132641052,
+    0.07935004661348444,
+    0.1653356247627613,
+    -0.05685376688513455,
+    0.9133853821250297,
+    0.3741872561733224,
+    0.5447934085866091,
+    -0.744430420710972,
+    0.5108426384487286,
+    -0.8051398219074205,
+    -0.5378859444146376,
+    -0.33691580973602586,
+    0.9596980685931551,
+    -0.972949663906924,
+    5.300739697391407,
+    -2.189484451380597,
+    2.3921554242433274,
+    -2.329298611995858,
+    0.01768229923233733,
+    1.873655258540893,
+    -2.2486397963696376,
+    0.24243359910491868,
+    0.4373728251505362,
+    2.0951295172530635,
+    2.589961793917732,
+    -3.1899009727246312,
+    -0.791671391818797,
+    0.12169473701350597
+  ],
+  "best_fitness": -0.14285714285714285,
+  "evaluations": 1500,
+  "best_found_at": 2,
+  "zero_fitness_evaluations": 0,
+  "history": [
+    {
+      "evaluations": 1,
+      "best_fitness": -0.12471655328798185
+    },
+    {
+      "evaluations": 2,
+      "best_fitness": -0.14285714285714285
+    },
+    {
+      "evaluations": 1500,
+      "best_fitness": -0.14285714285714285
+    }
+  ],
+  "schema_version": 2,
+  "timestamp_utc": "2026-11-16T11:49:20.395798+00:00",
+  "instance": "beginner",
+  "solver": "stm-ga-blend",
+  "parameters": {
+    "population_size": 40,
+    "tournament_size": 2,
+    "elite_count": 2,
+    "crossover_rate": 0.9,
+    "crossover": "blend",
+    "mutation_cells": 2.0,
+    "replacement_probability": 0.15,
+    "restart_generations": 20
+  },
+  "problem_id": "tiny-observatory-in-dro",
+  "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4",
+  "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+  "objective_direction": "minimize",
+  "max_evaluations": 1500,
+  "initialization": "STM-whitened radial sampling",
+  "boundary_repair": "satellite radial contraction or feasible chord",
+  "history_kind": "strict-improvements-plus-final-evaluation",
+  "elapsed_seconds": 1.4269632780001302,
+  "geometry_setup_seconds": 0.0003592600000956736,
+  "geometry": {
+    "condition_number": 166.70239776896776,
+    "singular_values": [
+      47.15352387896538,
+      3.0408014067451132,
+      1.5175205937982674,
+      0.7945236441150053,
+      0.2989318855551948,
+      0.2828605017686385
+    ],
+    "whitening_residual": 5.296032531057632e-15,
+    "margin": 0.995
+  },
+  "post_search_fitness_calls": 1,
+  "official_verification_fitness": -0.14285714285714285,
+  "official_verification_matches": true,
+  "verification_seconds": 0.0007250209999938306,
+  "process_peak_rss_mib": 333.93359375,
+  "stage": "pilot"
+}

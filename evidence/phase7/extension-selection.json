@@ -1,0 +1,26 @@
+[
+  {
+    "instance": "intermediate",
+    "solver": "stm-local",
+    "confirmation_median": -1.6936347412254613,
+    "selection_rule": "lowest median at 10000 evaluations on seeds 101,202,303",
+    "new_search_budget": 50000,
+    "new_seeds": [
+      404,
+      505,
+      606
+    ]
+  },
+  {
+    "instance": "hard",
+    "solver": "stm-local",
+    "confirmation_median": -1.3521713265913147,
+    "selection_rule": "lowest median at 10000 evaluations on seeds 101,202,303",
+    "new_search_budget": 50000,
+    "new_seeds": [
+      404,
+      505,
+      606
+    ]
+  }
+]

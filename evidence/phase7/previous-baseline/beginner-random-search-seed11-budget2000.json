@@ -1,0 +1,69 @@
+{
+  "algorithm": "random_search",
+  "seed": 11,
+  "best_chromosome": [
+    0.14046225984402838,
+    -0.3101320827885141,
+    0.5894324258390897,
+    -0.8225705396403848,
+    0.5191282660878789,
+    0.7633314918553062,
+    0.5521645250236231,
+    -0.8026627993985402,
+    0.16211860202284378,
+    0.6043988230317603,
+    -0.17683274719017938,
+    0.6880949829894285,
+    -0.6679890635988066,
+    0.05747627064460126,
+    0.1163897187013001,
+    5.765085401947186,
+    -1.7595634138302216,
+    -4.834949772629493,
+    4.242474812971974,
+    -7.715182154690911,
+    -2.6428784025564163,
+    -0.6391700030591814,
+    5.75592899383604,
+    -1.5046910639804487,
+    1.2438425221341873,
+    3.5663606350891577,
+    3.5110957536781697,
+    9.270293595172188,
+    -0.7363655564686269,
+    1.4353444578995678
+  ],
+  "best_fitness": -0.006802721088435375,
+  "evaluations": 2000,
+  "best_found_at": 62,
+  "zero_fitness_evaluations": 1996,
+  "history": [
+    {
+      "evaluations": 1,
+      "best_fitness": -0.0
+    },
+    {
+      "evaluations": 62,
+      "best_fitness": -0.006802721088435375
+    },
+    {
+      "evaluations": 2000,
+      "best_fitness": -0.006802721088435375
+    }
+  ],
+  "schema_version": 1,
+  "timestamp_utc": "2026-11-15T12:39:56.635791+00:00",
+  "instance": "beginner",
+  "solver": "random-search",
+  "problem_id": "tiny-observatory-in-dro",
+  "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4",
+  "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+  "objective_direction": "minimize",
+  "max_evaluations": 2000,
+  "parameters": {},
+  "initialization": "uniform-full-official-box",
+  "boundary_repair": "not-needed",
+  "history_kind": "strict-improvements-plus-final-evaluation",
+  "elapsed_seconds": 2.024986194999883,
+  "post_search_fitness_calls": 0
+}

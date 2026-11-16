@@ -1,0 +1,80 @@
+{
+  "algorithm": "differential_evolution",
+  "seed": 303,
+  "best_chromosome": [
+    -0.34222387573207425,
+    0.4481131085664023,
+    0.3368477562631309,
+    0.006164387898377033,
+    0.7654302297705944,
+    -0.4776238227415457,
+    0.7527511214105376,
+    0.2917642950796544,
+    0.726939686258218,
+    -0.9967201235324181,
+    -0.260972616738365,
+    0.3897338385143956,
+    0.9735110907952778,
+    0.9764701017093493,
+    -0.7355418594518398,
+    -2.0010224214862005,
+    8.630953510355276,
+    1.289645686404599,
+    -2.613423835556298,
+    -0.8316075112465775,
+    -5.770875475334172,
+    -0.10001378348515466,
+    6.173766388569227,
+    -0.17333687138188125,
+    2.015407938941639,
+    0.6371913700246079,
+    -8.33533899734123,
+    7.251683151658135,
+    2.8381495188229735,
+    1.42503453962666
+  ],
+  "best_fitness": -0.006802721088435375,
+  "evaluations": 10000,
+  "best_found_at": 61,
+  "zero_fitness_evaluations": 9989,
+  "history": [
+    {
+      "evaluations": 1,
+      "best_fitness": -0.0
+    },
+    {
+      "evaluations": 61,
+      "best_fitness": -0.006802721088435375
+    },
+    {
+      "evaluations": 10000,
+      "best_fitness": -0.006802721088435375
+    }
+  ],
+  "schema_version": 1,
+  "timestamp_utc": "2026-11-16T11:53:35.129248+00:00",
+  "instance": "beginner",
+  "solver": "de",
+  "problem_id": "tiny-observatory-in-dro",
+  "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4",
+  "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+  "objective_direction": "minimize",
+  "max_evaluations": 10000,
+  "parameters": {
+    "population_size": 40,
+    "F": 0.7,
+    "CR": 0.9
+  },
+  "initialization": "uniform-full-official-box",
+  "boundary_repair": "reflection",
+  "history_kind": "strict-improvements-plus-final-evaluation",
+  "elapsed_seconds": 7.52613733599992,
+  "post_search_fitness_calls": 1,
+  "geometry_setup_seconds": 0.0,
+  "geometry": null,
+  "official_verification_fitness": -0.006802721088435375,
+  "official_verification_matches": true,
+  "verification_seconds": 0.0006766970000171568,
+  "process_peak_rss_mib": 333.8984375,
+  "stage": "confirmation"
+}

@@ -1,0 +1,15 @@
+Interferometric Mission - ESA reference evaluation
+Instance: intermediate
+ESA problem ID: large-observatory-in-dro
+Mothership orbit: DRO
+Satellites: 40
+Decision variables: 240
+Grid: 21 x 21
+Observation times: [0.0, 2.6905181697222775, 5.381036339444555]
+Observation planes: XY, XZ, YZ
+Candidate: provided-json-vector
+Objective (minimize): -1.7233789411064842
+Direct ESA agreement: True
+Initialization: 6.118520 s
+One evaluation: 0.271046 s
+Report: ../verification/final-cli/intermediate.json

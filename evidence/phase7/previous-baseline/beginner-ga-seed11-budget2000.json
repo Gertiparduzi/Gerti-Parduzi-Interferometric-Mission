@@ -1,0 +1,82 @@
+{
+  "algorithm": "genetic_algorithm",
+  "seed": 11,
+  "best_chromosome": [
+    -0.6577170876594662,
+    -0.026214042743803123,
+    0.15454831496766896,
+    0.2791553105746989,
+    -0.31362184195131515,
+    -0.46777877231756715,
+    -0.20242829000593243,
+    -0.1715047634348923,
+    -0.2744977085005016,
+    -0.4866499320084898,
+    0.3536811162956748,
+    -0.09231724126531737,
+    -0.1298812640436534,
+    0.5806321072174436,
+    -0.2646538872949765,
+    3.252544902086642,
+    -0.7095178591584013,
+    0.6578328958429616,
+    6.8112513924689,
+    0.371242164078879,
+    -7.584560568239032,
+    -0.062428656937608906,
+    0.4231520534736575,
+    5.834060914277579,
+    -0.30606795645247153,
+    3.3074164167942026,
+    0.7032559345142921,
+    -3.115340819805212,
+    -4.977486730559736,
+    -5.508869529962678
+  ],
+  "best_fitness": -0.02040816326530612,
+  "evaluations": 2000,
+  "best_found_at": 666,
+  "zero_fitness_evaluations": 691,
+  "history": [
+    {
+      "evaluations": 1,
+      "best_fitness": -0.0
+    },
+    {
+      "evaluations": 216,
+      "best_fitness": -0.006802721088435375
+    },
+    {
+      "evaluations": 666,
+      "best_fitness": -0.02040816326530612
+    },
+    {
+      "evaluations": 2000,
+      "best_fitness": -0.02040816326530612
+    }
+  ],
+  "schema_version": 1,
+  "timestamp_utc": "2026-11-15T12:39:58.960334+00:00",
+  "instance": "beginner",
+  "solver": "ga",
+  "problem_id": "tiny-observatory-in-dro",
+  "source_commit": "b45d23bb1950212510fde3d7b6159e9f9f6fbad4",
+  "source_sha256": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+  "objective_direction": "minimize",
+  "max_evaluations": 2000,
+  "parameters": {
+    "population_size": 40,
+    "tournament_size": 2,
+    "crossover_rate": 0.9,
+    "crossover_alpha": 0.25,
+    "mutation_probability": 0.03333333333333333,
+    "mutation_sigma": 0.05,
+    "elite_count": 1,
+    "n_satellites": 5
+  },
+  "initialization": "uniform-full-official-box",
+  "boundary_repair": "reflection",
+  "history_kind": "strict-improvements-plus-final-evaluation",
+  "elapsed_seconds": 2.3235048330000154,
+  "post_search_fitness_calls": 0
+}

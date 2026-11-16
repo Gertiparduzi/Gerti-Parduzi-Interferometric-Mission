@@ -1,0 +1,895 @@
+{
+  "runs": 126,
+  "additional_direct_esa_calls": 126,
+  "all_saved_vectors_match": true,
+  "all_budgets_and_histories_valid": true,
+  "official_sources": {
+    "beginner": "c502b24d92b1b6dc12424cca8e28bd20704fed4f192b30e773af034df52ded7a",
+    "intermediate": "0c40b8c3d5af0b7df001c102862715f661785a3bbdece2abaf8c8849190bc133",
+    "hard": "07e8028080676757de3dd18c837efe07f6e0ae4c140808eb78ab147bfddfe8ec"
+  },
+  "checks": [
+    {
+      "file": "pilot/beginner-sage-seed11-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "826463364d27fc8d851f662e6886b226492658e78ede0ce6cc273fbf0ea1ec6d"
+    },
+    {
+      "file": "pilot/beginner-sage-seed22-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "6dd366db48219ecc4bbdb366414250f26927e6efb3de51d7fa8159e52bfb5468"
+    },
+    {
+      "file": "pilot/beginner-stm-de-fixed-seed11-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "826463364d27fc8d851f662e6886b226492658e78ede0ce6cc273fbf0ea1ec6d"
+    },
+    {
+      "file": "pilot/beginner-stm-de-fixed-seed22-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "6dd366db48219ecc4bbdb366414250f26927e6efb3de51d7fa8159e52bfb5468"
+    },
+    {
+      "file": "pilot/beginner-stm-de-seed11-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "826463364d27fc8d851f662e6886b226492658e78ede0ce6cc273fbf0ea1ec6d"
+    },
+    {
+      "file": "pilot/beginner-stm-de-seed22-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "6dd366db48219ecc4bbdb366414250f26927e6efb3de51d7fa8159e52bfb5468"
+    },
+    {
+      "file": "pilot/beginner-stm-ga-blend-seed11-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "826463364d27fc8d851f662e6886b226492658e78ede0ce6cc273fbf0ea1ec6d"
+    },
+    {
+      "file": "pilot/beginner-stm-ga-blend-seed22-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "6dd366db48219ecc4bbdb366414250f26927e6efb3de51d7fa8159e52bfb5468"
+    },
+    {
+      "file": "pilot/beginner-stm-ga-seed11-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "826463364d27fc8d851f662e6886b226492658e78ede0ce6cc273fbf0ea1ec6d"
+    },
+    {
+      "file": "pilot/beginner-stm-ga-seed22-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "6dd366db48219ecc4bbdb366414250f26927e6efb3de51d7fa8159e52bfb5468"
+    },
+    {
+      "file": "pilot/beginner-stm-local-seed11-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "0089171126a7be4dc4aec60babca611b86965c736d472d2f830f11f82d5b8a26"
+    },
+    {
+      "file": "pilot/beginner-stm-local-seed22-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "6dd366db48219ecc4bbdb366414250f26927e6efb3de51d7fa8159e52bfb5468"
+    },
+    {
+      "file": "pilot/beginner-stm-mixed-seed11-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "c4c267ae5471eb4d4317740ba06c134172da4fb97b3ccba29238b7eddebbec8a"
+    },
+    {
+      "file": "pilot/beginner-stm-mixed-seed22-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "dc8c5a716bd826baf7a2a2b39b36819ce544e17b7b7836ed6fd5870b1599ba52"
+    },
+    {
+      "file": "pilot/beginner-stm-random-seed11-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "826463364d27fc8d851f662e6886b226492658e78ede0ce6cc273fbf0ea1ec6d"
+    },
+    {
+      "file": "pilot/beginner-stm-random-seed22-budget1500.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "6dd366db48219ecc4bbdb366414250f26927e6efb3de51d7fa8159e52bfb5468"
+    },
+    {
+      "file": "pilot/hard-sage-seed11-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.247471743010113,
+      "official_match": true,
+      "vector_sha256": "7b7115394314b346924ba0d26d3b5423083bbd0d55897aa593a0f32c1731d135"
+    },
+    {
+      "file": "pilot/hard-sage-seed22-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.2581796549672812,
+      "official_match": true,
+      "vector_sha256": "10a3ba2f1b75a3be984c7e3e7e9a9ba7ea1305f0d10a5ab2a2aa08c2044579e7"
+    },
+    {
+      "file": "pilot/hard-stm-de-fixed-seed11-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.2129684711481261,
+      "official_match": true,
+      "vector_sha256": "eb769f0b69c7552a689377fd431c504394a128b0771e36b0e142811957de0488"
+    },
+    {
+      "file": "pilot/hard-stm-de-fixed-seed22-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.1737061273051754,
+      "official_match": true,
+      "vector_sha256": "e9465203b5f1704cf24728c3ecf65f4f2bc061c4c0a6dc14498cabb0db8db46d"
+    },
+    {
+      "file": "pilot/hard-stm-de-seed11-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.1891731112433077,
+      "official_match": true,
+      "vector_sha256": "f3e6d1452f099c495295643df2fc32c037b7490feaf93f1e7ecd9452d5fe6e98"
+    },
+    {
+      "file": "pilot/hard-stm-de-seed22-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.184414039262344,
+      "official_match": true,
+      "vector_sha256": "2859f22631d077a8bedca6ae51d96250d2973ebc4cda0c8e073772ea8b35a6e6"
+    },
+    {
+      "file": "pilot/hard-stm-ga-blend-seed11-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.0202260559190957,
+      "official_match": true,
+      "vector_sha256": "15991a3c6dc0d515ada416d1a17192f67e9c6249423320925f483ecca9b7ebdb"
+    },
+    {
+      "file": "pilot/hard-stm-ga-blend-seed22-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.0404521118381915,
+      "official_match": true,
+      "vector_sha256": "728ee8de178beabc0398e6baddcc5e1d57e11b87a2f036f15c9a5154007a5e02"
+    },
+    {
+      "file": "pilot/hard-stm-ga-seed11-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.2260559190957763,
+      "official_match": true,
+      "vector_sha256": "4ca70ca79b630fac05f487f04d9e63141ed7f17944481e078ca26d3ea21898da"
+    },
+    {
+      "file": "pilot/hard-stm-ga-seed22-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.2070196311719215,
+      "official_match": true,
+      "vector_sha256": "8c140f212ca76c48c218634a9171bf3d28451c6d89e918b4c12270ffc6bf2e3d"
+    },
+    {
+      "file": "pilot/hard-stm-local-seed11-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.2022605591909579,
+      "official_match": true,
+      "vector_sha256": "d07ee3154e7bef9a5c87db171aac8d7d3b1a68f97c3cc684b991f1d5a2a68ad7"
+    },
+    {
+      "file": "pilot/hard-stm-local-seed22-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.152290303390839,
+      "official_match": true,
+      "vector_sha256": "7a757b94a26ddc17cbfb6119b4f0f6662d4187ae4bf106b02d0e2f5613d6b283"
+    },
+    {
+      "file": "pilot/hard-stm-mixed-seed11-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.0285544318857822,
+      "official_match": true,
+      "vector_sha256": "2cc1a672d7541872a94edf8a63c0dac3958bb964f91c3e53d994d98f02e471a6"
+    },
+    {
+      "file": "pilot/hard-stm-mixed-seed22-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.0166567519333731,
+      "official_match": true,
+      "vector_sha256": "9606038dfe89d5b3366111a4048b404982e236b792c8b3810bc37904f4298281"
+    },
+    {
+      "file": "pilot/hard-stm-random-seed11-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.0273646638905414,
+      "official_match": true,
+      "vector_sha256": "e74590450c9e8d9678dc17f89c50450b957c55ad9082001b2bec02ad29a2bf64"
+    },
+    {
+      "file": "pilot/hard-stm-random-seed22-budget1500.json",
+      "instance": "hard",
+      "fitness": -1.0404521118381915,
+      "official_match": true,
+      "vector_sha256": "1efdf3b09b1e9789fc05b419f33771b360e54d0d047022c8ea957c8bcb28fcd5"
+    },
+    {
+      "file": "pilot/intermediate-sage-seed11-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.5544318857822725,
+      "official_match": true,
+      "vector_sha256": "47c03c6a35b6bc4c8c2670709fa2970f5ce01c016860e0c0892b2166ed793791"
+    },
+    {
+      "file": "pilot/intermediate-sage-seed22-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.5365853658536583,
+      "official_match": true,
+      "vector_sha256": "f8a32290540c328b3b488792a58c4f373ad6edc8a0557e59af69533fa52d5141"
+    },
+    {
+      "file": "pilot/intermediate-stm-de-fixed-seed11-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.4866151100535396,
+      "official_match": true,
+      "vector_sha256": "803c191cf0787afe58e177e05a1430fc81437da6b1ae96029478f988b5efeba0"
+    },
+    {
+      "file": "pilot/intermediate-stm-de-fixed-seed22-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.4640095181439619,
+      "official_match": true,
+      "vector_sha256": "207a1e24ca8c8a4c384ec1752f10a2ae42bf4992f7dbb4e23117a93d3a422bae"
+    },
+    {
+      "file": "pilot/intermediate-stm-de-seed11-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.4568709101725164,
+      "official_match": true,
+      "vector_sha256": "9911dad3b2560a14a2f922c45f69067cdb5411c0997228a4401c8df0931c8bb6"
+    },
+    {
+      "file": "pilot/intermediate-stm-de-seed22-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.4937537180249851,
+      "official_match": true,
+      "vector_sha256": "23f2be8371427e3089a04d9bf96624a7bc35a4c049a4aa32a1b5b11521a8408d"
+    },
+    {
+      "file": "pilot/intermediate-stm-ga-blend-seed11-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.2831647828673407,
+      "official_match": true,
+      "vector_sha256": "9cbaea4ecdd6f3bfff514c441f8315951cf2fa919e4a5e8ff3023ee2d2a64a51"
+    },
+    {
+      "file": "pilot/intermediate-stm-ga-blend-seed22-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.229625223081499,
+      "official_match": true,
+      "vector_sha256": "8dd0c4671d8a748cf2c51918bfda426938dd37872fe2d701cf39c75782e35971"
+    },
+    {
+      "file": "pilot/intermediate-stm-ga-seed11-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.5020820939916715,
+      "official_match": true,
+      "vector_sha256": "613c3bdeaf38eccbd1d4588045d7e64623ebeb7a428ea72b33e7c7f0c8c824f7"
+    },
+    {
+      "file": "pilot/intermediate-stm-ga-seed22-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.5234979179060084,
+      "official_match": true,
+      "vector_sha256": "ece3b8915816c70374a1fbc5c8a2ef51da4ab090b9ac07ca09ddcc08774d9e31"
+    },
+    {
+      "file": "pilot/intermediate-stm-local-seed11-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.5401546698393815,
+      "official_match": true,
+      "vector_sha256": "17e034d756bd818ed87d47f0915d9d2ea68ba080555ccfd7ad26017e1a16188b"
+    },
+    {
+      "file": "pilot/intermediate-stm-local-seed22-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.5234979179060084,
+      "official_match": true,
+      "vector_sha256": "5daa9671729e9484d47bbfbedbb6ce43cf16ee8947f3bc149095d3d4b8671dae"
+    },
+    {
+      "file": "pilot/intermediate-stm-mixed-seed11-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.248661511005354,
+      "official_match": true,
+      "vector_sha256": "2e5d79a40e5cdc15e301083c5c50c62c5c529541371bbbd43cddfa19fcf68f5c"
+    },
+    {
+      "file": "pilot/intermediate-stm-mixed-seed22-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.2748364069006546,
+      "official_match": true,
+      "vector_sha256": "b2c87159a2e6b720c1d40afe430d8a923595ff64ddd83acb9ef2dfe0402360a0"
+    },
+    {
+      "file": "pilot/intermediate-stm-random-seed11-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.2605591909577631,
+      "official_match": true,
+      "vector_sha256": "f98f21e406562743dfe14ed82ebde9060f84af3fb47204ac21dc913cb61c6542"
+    },
+    {
+      "file": "pilot/intermediate-stm-random-seed22-budget1500.json",
+      "instance": "intermediate",
+      "fitness": -1.249851279000595,
+      "official_match": true,
+      "vector_sha256": "3e249002c75a44fe1a535b8782c0baaa372a8b1fe9574c91aca306528a8c05b7"
+    },
+    {
+      "file": "confirmation/beginner-de-seed101-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.006802721088435375,
+      "official_match": true,
+      "vector_sha256": "fae48c4341e39b4a3e8ab60c4066e7f72248261ec7f7f8f6f32ff067ea8c9df7"
+    },
+    {
+      "file": "confirmation/beginner-de-seed202-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.006802721088435375,
+      "official_match": true,
+      "vector_sha256": "5d24d22b76baeddbea24a40e5f992f1678554fd03acac93f91705541b123b85d"
+    },
+    {
+      "file": "confirmation/beginner-de-seed303-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.006802721088435375,
+      "official_match": true,
+      "vector_sha256": "b9045b3346736f17f6e143d21e78111b0bdd71b72a06e48d6bc07c995d1c47d2"
+    },
+    {
+      "file": "confirmation/beginner-ga-seed101-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.02040816326530612,
+      "official_match": true,
+      "vector_sha256": "ca8e47ffa01d714437bc37446faeda6ce218748587674034362036f0353806b1"
+    },
+    {
+      "file": "confirmation/beginner-ga-seed202-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.047619047619047616,
+      "official_match": true,
+      "vector_sha256": "041bcf562fd06a679f32fbefc94c995ea0350477fca29706c1a9293e780c03c6"
+    },
+    {
+      "file": "confirmation/beginner-ga-seed303-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.006802721088435375,
+      "official_match": true,
+      "vector_sha256": "94759763953adb640a97b99aa13e2fb498678afba3663d43207af8affaf6948d"
+    },
+    {
+      "file": "confirmation/beginner-random-search-seed101-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.006802721088435375,
+      "official_match": true,
+      "vector_sha256": "b560a821a1b5ef976556d3bc54eb9ac47a43460a92a92c010d5d359e139a931f"
+    },
+    {
+      "file": "confirmation/beginner-random-search-seed202-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.006802721088435375,
+      "official_match": true,
+      "vector_sha256": "d408205cafbd2663c4c98667510bf33239f80a348aaea12d543ef892f0e88107"
+    },
+    {
+      "file": "confirmation/beginner-random-search-seed303-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.006802721088435375,
+      "official_match": true,
+      "vector_sha256": "ab136f65af6737985b532b675b5e5e95e9e2aa0a5d7817f65d7f4a64ef14e70f"
+    },
+    {
+      "file": "confirmation/beginner-sage-seed101-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "98052becbdbce441c4dc9138375bc15dc8f34934668257ce3ab2f3217c9cd85a"
+    },
+    {
+      "file": "confirmation/beginner-sage-seed202-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "4a99bf3dcdf085d89f3718d5263072b78072230340018356f0f9b9b9c7ae4e67"
+    },
+    {
+      "file": "confirmation/beginner-sage-seed303-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "ae4f26eb743a64bc8ce8db364bf9f28850d1fa5e49e9a5ee3e77af278d678e46"
+    },
+    {
+      "file": "confirmation/beginner-stm-de-seed101-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "98052becbdbce441c4dc9138375bc15dc8f34934668257ce3ab2f3217c9cd85a"
+    },
+    {
+      "file": "confirmation/beginner-stm-de-seed202-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "4a99bf3dcdf085d89f3718d5263072b78072230340018356f0f9b9b9c7ae4e67"
+    },
+    {
+      "file": "confirmation/beginner-stm-de-seed303-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "ae4f26eb743a64bc8ce8db364bf9f28850d1fa5e49e9a5ee3e77af278d678e46"
+    },
+    {
+      "file": "confirmation/beginner-stm-ga-seed101-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "98052becbdbce441c4dc9138375bc15dc8f34934668257ce3ab2f3217c9cd85a"
+    },
+    {
+      "file": "confirmation/beginner-stm-ga-seed202-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "4a99bf3dcdf085d89f3718d5263072b78072230340018356f0f9b9b9c7ae4e67"
+    },
+    {
+      "file": "confirmation/beginner-stm-ga-seed303-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "ae4f26eb743a64bc8ce8db364bf9f28850d1fa5e49e9a5ee3e77af278d678e46"
+    },
+    {
+      "file": "confirmation/beginner-stm-local-seed101-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "b4e2d93044cf0d99084bd517f8abc56e72d88536fb389f08d5cc6ed8e30adec5"
+    },
+    {
+      "file": "confirmation/beginner-stm-local-seed202-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "059baa1d88262cb3730c185e280ee26d20cb70230f9a3a66d7df009b9c626187"
+    },
+    {
+      "file": "confirmation/beginner-stm-local-seed303-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "13e7edd6b5d02a6c00e2d98a2c5e4e4e48bfd756fe25139f97e11d1ff54cf7d0"
+    },
+    {
+      "file": "confirmation/beginner-stm-random-seed101-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "98052becbdbce441c4dc9138375bc15dc8f34934668257ce3ab2f3217c9cd85a"
+    },
+    {
+      "file": "confirmation/beginner-stm-random-seed202-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "4a99bf3dcdf085d89f3718d5263072b78072230340018356f0f9b9b9c7ae4e67"
+    },
+    {
+      "file": "confirmation/beginner-stm-random-seed303-budget10000.json",
+      "instance": "beginner",
+      "fitness": -0.14285714285714285,
+      "official_match": true,
+      "vector_sha256": "ae4f26eb743a64bc8ce8db364bf9f28850d1fa5e49e9a5ee3e77af278d678e46"
+    },
+    {
+      "file": "confirmation/hard-de-seed101-budget10000.json",
+      "instance": "hard",
+      "fitness": -0.001784651992861392,
+      "official_match": true,
+      "vector_sha256": "1cfaecebd8f97ee730714afc4a82c891c2637405b2f57011a887d80a0a4f28d9"
+    },
+    {
+      "file": "confirmation/hard-de-seed202-budget10000.json",
+      "instance": "hard",
+      "fitness": -0.001784651992861392,
+      "official_match": true,
+      "vector_sha256": "a469187b0ae5a0771309757a6ea6020b302ddcea94cd9ddf1cfe391541460994"
+    },
+    {
+      "file": "confirmation/hard-de-seed303-budget10000.json",
+      "instance": "hard",
+      "fitness": -0.001784651992861392,
+      "official_match": true,
+      "vector_sha256": "026b07fd0588d6dcfe6a0e09d86d4c847959bd1c95ce31f1b9698ba36dfb8361"
+    },
+    {
+      "file": "confirmation/hard-ga-seed101-budget10000.json",
+      "instance": "hard",
+      "fitness": -0.012492563950029746,
+      "official_match": true,
+      "vector_sha256": "084d6ce33dae6b5f58262dc77418d15deb0f15cb0f5f824afe9be79f69181c84"
+    },
+    {
+      "file": "confirmation/hard-ga-seed202-budget10000.json",
+      "instance": "hard",
+      "fitness": -0.012492563950029746,
+      "official_match": true,
+      "vector_sha256": "471189c7b8f1d289458767ff7332077613aa94b1e7dd039bf0e5f2048bc395e1"
+    },
+    {
+      "file": "confirmation/hard-ga-seed303-budget10000.json",
+      "instance": "hard",
+      "fitness": -0.012492563950029746,
+      "official_match": true,
+      "vector_sha256": "85af220e09fc1af95ce80558b618a8352c60e3cd34d72384971e574c27164b6b"
+    },
+    {
+      "file": "confirmation/hard-random-search-seed101-budget10000.json",
+      "instance": "hard",
+      "fitness": -0.001784651992861392,
+      "official_match": true,
+      "vector_sha256": "fa5d91d53a3fb29f75360b7bd267588213714747207f72bee51b7b7b2beb10f6"
+    },
+    {
+      "file": "confirmation/hard-random-search-seed202-budget10000.json",
+      "instance": "hard",
+      "fitness": -0.001784651992861392,
+      "official_match": true,
+      "vector_sha256": "fd56021462e1481c69d0b2a3e62a1ae6ad7d866ed14c400835533dce45a2ffda"
+    },
+    {
+      "file": "confirmation/hard-random-search-seed303-budget10000.json",
+      "instance": "hard",
+      "fitness": -0.001784651992861392,
+      "official_match": true,
+      "vector_sha256": "f51ef327ae065e6dd8e884c0d3b70be21c350125ac3e0628f5d60b405750b39d"
+    },
+    {
+      "file": "confirmation/hard-sage-seed101-budget10000.json",
+      "instance": "hard",
+      "fitness": -1.347412254610351,
+      "official_match": true,
+      "vector_sha256": "2211477c4ed53b37af24e8bc636140cdc14eb30083baa02a5b577253d60ac7aa"
+    },
+    {
+      "file": "confirmation/hard-sage-seed202-budget10000.json",
+      "instance": "hard",
+      "fitness": -1.3069601427721595,
+      "official_match": true,
+      "vector_sha256": "7c6e2d5b69a5e2540875cce7460acb399f53fa671e03d4f2acd7eda887969be1"
+    },
+    {
+      "file": "confirmation/hard-sage-seed303-budget10000.json",
+      "instance": "hard",
+      "fitness": -1.3593099345627602,
+      "official_match": true,
+      "vector_sha256": "8c9c16e8b02f1ce55a795b3cbcad6d326f052b206c302fb8a32a3a7445aa56a1"
+    },
+    {
+      "file": "confirmation/hard-stm-de-seed101-budget10000.json",
+      "instance": "hard",
+      "fitness": -1.2558001189767996,
+      "official_match": true,
+      "vector_sha256": "a185677677bb916bef67fb0cf222f58bf8666c4dffc84710f38985989b069bf9"
+    },
+    {
+      "file": "confirmation/hard-stm-de-seed202-budget10000.json",
+      "instance": "hard",
+      "fitness": -1.2712671029149316,
+      "official_match": true,
+      "vector_sha256": "73282a916b38f138ce9fa61efcb242e9f0c664f4b4574fbdac4656f4edc57dcc"
+    },
+    {
+      "file": "confirmation/hard-stm-de-seed303-budget10000.json",
+      "instance": "hard",
+      "fitness": -1.2688875669244497,
+      "official_match": true,
+      "vector_sha256": "e998bf34a9a065b48225bc5dac78744a8d857f50ddeae704464e582251be7851"
+    },
+    {
+      "file": "confirmation/hard-stm-ga-seed101-budget10000.json",
+      "instance": "hard",
+      "fitness": -1.3259964306960144,
+      "official_match": true,
+      "vector_sha256": "af9449c0eb93d1670aa06d37e801b59d40dc9ee4e7b63cd5b647f30e821e1421"
+    },
+    {
+      "file": "confirmation/hard-stm-ga-seed202-budget10000.json",
+      "instance": "hard",
+      "fitness": -1.3081499107674004,
+      "official_match": true,
+      "vector_sha256": "fd1b82bec2b4f1c90f992320c9550b1036ff0c446cdd057348082cbaad80b793"
+    },
+    {
+      "file": "confirmation/hard-stm-ga-seed303-budget10000.json",
+      "instance": "hard",
+      "fitness": -1.3176680547293278,
+      "official_match": true,
+      "vector_sha256": "14e5358e6749c50cf319f1afef31d3801decb4afa4b9e2b076161544be0109d4"
+    },
+    {
+      "file": "confirmation/hard-stm-local-seed101-budget10000.json",
+      "instance": "hard",
+      "fitness": -1.3521713265913147,
+      "official_match": true,
+      "vector_sha256": "92c725c3aa68f4aadceed0dc1f93261a27572741bd7dd051f590843786f73c5b"
+    },
+    {
+      "file": "confirmation/hard-stm-local-seed202-budget10000.json",
+      "instance": "hard",
+      "fitness": -1.3723973825104103,
+      "official_match": true,
+      "vector_sha256": "d0e7ed63634bc655e080916abe4d37b594766d9ca5778d73c09437ed856dc553"
+    },
+    {
+      "file": "confirmation/hard-stm-local-seed303-budget10000.json",
+      "instance": "hard",
+      "fitness": -1.3093396787626412,
+      "official_match": true,
+      "vector_sha256": "75f72df9fd76bf72eef8d53ab6a2368e6a403fcc8cf3b98d794c261353210a74"
+    },
+    {
+      "file": "confirmation/hard-stm-random-seed101-budget10000.json",
+      "instance": "hard",
+      "fitness": -1.0428316478286734,
+      "official_match": true,
+      "vector_sha256": "5f418f6af919817a05efef8b006347beb998901ab9e1495e35c6a14f937109bc"
+    },
+    {
+      "file": "confirmation/hard-stm-random-seed202-budget10000.json",
+      "instance": "hard",
+      "fitness": -1.0571088637715644,
+      "official_match": true,
+      "vector_sha256": "81e5c9ee43346e0d9baa4d8c26416872b2c8d110b1d8ca57ad42ad684314786f"
+    },
+    {
+      "file": "confirmation/hard-stm-random-seed303-budget10000.json",
+      "instance": "hard",
+      "fitness": -1.0380725758477096,
+      "official_match": true,
+      "vector_sha256": "1aaedec4711543ab6259a482a2cebc83d72e84c01fbe542489b29791f2819ff0"
+    },
+    {
+      "file": "confirmation/intermediate-de-seed101-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -0.005353955978584176,
+      "official_match": true,
+      "vector_sha256": "3df89db80e2fcd2f5f7696726fd4ffa3f21a15b1fc741cbde49575802dbb125b"
+    },
+    {
+      "file": "confirmation/intermediate-de-seed202-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -0.005353955978584176,
+      "official_match": true,
+      "vector_sha256": "ce652496e675731f4b199a65e827af850d2a31a7b3b3715694b0b84ed1b8e58a"
+    },
+    {
+      "file": "confirmation/intermediate-de-seed303-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -0.005353955978584176,
+      "official_match": true,
+      "vector_sha256": "0f5a29a7225bd3c284113faf78f4a16d392c460784e4be283e23f47a3941d00b"
+    },
+    {
+      "file": "confirmation/intermediate-ga-seed101-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -0.1624033313503867,
+      "official_match": true,
+      "vector_sha256": "8b9d1a6163f266574cd8d2edcaaa8e6eb2865e994f07ddd65854139fbd51face"
+    },
+    {
+      "file": "confirmation/intermediate-ga-seed202-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -0.30041641879833436,
+      "official_match": true,
+      "vector_sha256": "34ecd1f3e7d74cd2e8095af2551d243edf466fe79155b53736b72cfbcce86f86"
+    },
+    {
+      "file": "confirmation/intermediate-ga-seed303-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -0.27424152290303394,
+      "official_match": true,
+      "vector_sha256": "1c7b24ac39088b4281664a381ef56011a9021f9c60bd248dd5c663c6e57275f3"
+    },
+    {
+      "file": "confirmation/intermediate-random-search-seed101-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -0.005353955978584176,
+      "official_match": true,
+      "vector_sha256": "e61ee1b3724f8f9108ccf0fde032c56aafdeacfff851d86a970ed83f9aab2cb3"
+    },
+    {
+      "file": "confirmation/intermediate-random-search-seed202-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -0.005353955978584176,
+      "official_match": true,
+      "vector_sha256": "a540239a285bc481835f31fc6cf2fa5b76962967cf66a59397db41a4749c64dd"
+    },
+    {
+      "file": "confirmation/intermediate-random-search-seed303-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -0.005353955978584176,
+      "official_match": true,
+      "vector_sha256": "2cbb3936e9f5b4159f7dc50c845a6f0902a67f146045603f644f5f7944c18ef3"
+    },
+    {
+      "file": "confirmation/intermediate-sage-seed101-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -1.6829268292682926,
+      "official_match": true,
+      "vector_sha256": "3e3e291cc2331e4624afbc557d7ac70dffca72eb271506b49fd33a14229771b3"
+    },
+    {
+      "file": "confirmation/intermediate-sage-seed202-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -1.6531826293872693,
+      "official_match": true,
+      "vector_sha256": "d1f1c8312307b5228fbfedd873db0ca31de2ed78b85c796478bf89283178e507"
+    },
+    {
+      "file": "confirmation/intermediate-sage-seed303-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -1.7209994051160025,
+      "official_match": true,
+      "vector_sha256": "e4c56c04f7d1e5a71e4c0321eb0f1197e2b9c75d1786cb6b6d2223f70956767d"
+    },
+    {
+      "file": "confirmation/intermediate-stm-de-seed101-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -1.611540749553837,
+      "official_match": true,
+      "vector_sha256": "190d0f87510082922a5fcd8381255c0242d4464d25e6fcd4296626bc6f380135"
+    },
+    {
+      "file": "confirmation/intermediate-stm-de-seed202-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -1.5829863176680545,
+      "official_match": true,
+      "vector_sha256": "3a34037bc0040906818cc29332316257281c23f57e1bbfcd5c71287e2e1768c9"
+    },
+    {
+      "file": "confirmation/intermediate-stm-de-seed303-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -1.593694229625223,
+      "official_match": true,
+      "vector_sha256": "7d66ba77d04c3580526b691c1afdf07f6d44537018c910bea40a81edf638cb2e"
+    },
+    {
+      "file": "confirmation/intermediate-stm-ga-seed101-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -1.6591314693634742,
+      "official_match": true,
+      "vector_sha256": "30a7572bb0e1d58d07f4f6aad5aa5da09b331a10ca99c9f756bad942182a6373"
+    },
+    {
+      "file": "confirmation/intermediate-stm-ga-seed202-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -1.6769779892920882,
+      "official_match": true,
+      "vector_sha256": "7ecb7ea2a4de06b4d1d9ed4f0b7166b1fc8af7410332e196ac2c5d1d136d93d2"
+    },
+    {
+      "file": "confirmation/intermediate-stm-ga-seed303-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -1.6769779892920882,
+      "official_match": true,
+      "vector_sha256": "fc331b8e79a8eaa1d875d250fe90dba971f74d19dc0566462ca4270a0d31a061"
+    },
+    {
+      "file": "confirmation/intermediate-stm-local-seed101-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -1.7162403331350387,
+      "official_match": true,
+      "vector_sha256": "30ad06d844c7de2e54934489698c5945d60e68ccfa8e33d7ddb349a7e59005c6"
+    },
+    {
+      "file": "confirmation/intermediate-stm-local-seed202-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -1.6936347412254613,
+      "official_match": true,
+      "vector_sha256": "d0e89a588e034e1184e8cbf5051bac7ef2ca4446e87802aea469529d679dbae5"
+    },
+    {
+      "file": "confirmation/intermediate-stm-local-seed303-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -1.6508030933967877,
+      "official_match": true,
+      "vector_sha256": "8e8b1e5373ce37d25ac42cab5d2c48ea24d92f173a208fcbf85bc031a4d1e298"
+    },
+    {
+      "file": "confirmation/intermediate-stm-random-seed101-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -1.265318262938727,
+      "official_match": true,
+      "vector_sha256": "310df7f1cc36cdefa32838a4a6010c4ebb22524eb328d58473c0cb0a5769969d"
+    },
+    {
+      "file": "confirmation/intermediate-stm-random-seed202-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -1.2891136228435456,
+      "official_match": true,
+      "vector_sha256": "745b1ff9aa3007c9c7f055d5e67d2bd5a294e191b7d488df80cc9fb755a53018"
+    },
+    {
+      "file": "confirmation/intermediate-stm-random-seed303-budget10000.json",
+      "instance": "intermediate",
+      "fitness": -1.2736466389054135,
+      "official_match": true,
+      "vector_sha256": "84eb4dc6f931ab6f4d89cbc02a357cdb37107f80d668f952fed266d3a0241286"
+    },
+    {
+      "file": "extended-intermediate/intermediate-stm-local-seed404-budget50000.json",
+      "instance": "intermediate",
+      "fitness": -1.6853063652587745,
+      "official_match": true,
+      "vector_sha256": "ffd83a123ad613038238967e25378a4e96dd6da261050dea7ba721fedd886727"
+    },
+    {
+      "file": "extended-intermediate/intermediate-stm-local-seed505-budget50000.json",
+      "instance": "intermediate",
+      "fitness": -1.710291493158834,
+      "official_match": true,
+      "vector_sha256": "9d02abfdafa3af89230d2f31e8b3b8a6748e7b0a9d0de18f1abe461b767825d3"
+    },
+    {
+      "file": "extended-intermediate/intermediate-stm-local-seed606-budget50000.json",
+      "instance": "intermediate",
+      "fitness": -1.7233789411064842,
+      "official_match": true,
+      "vector_sha256": "0439f624e99cf11004ba763a6f18515fbf342da4a62f439d5e064a0169745438"
+    },
+    {
+      "file": "extended-hard/hard-stm-local-seed404-budget50000.json",
+      "instance": "hard",
+      "fitness": -1.3533610945865555,
+      "official_match": true,
+      "vector_sha256": "27094eb52a3d95cf1f2ad22616496d5169c7c50daf7ef24637b4ea14f98f19e8"
+    },
+    {
+      "file": "extended-hard/hard-stm-local-seed505-budget50000.json",
+      "instance": "hard",
+      "fitness": -1.3723973825104105,
+      "official_match": true,
+      "vector_sha256": "8ae728b547da0c2d56c76d676c94ade3272cba5acff7b234fcfc205569dea7b1"
+    },
+    {
+      "file": "extended-hard/hard-stm-local-seed606-budget50000.json",
+      "instance": "hard",
+      "fitness": -1.330755502676978,
+      "official_match": true,
+      "vector_sha256": "7a4e5eb65cf4ff72da90a836529ebe4cd396abd32c8008bee0df365aa65e66c9"
+    }
+  ]
+}
